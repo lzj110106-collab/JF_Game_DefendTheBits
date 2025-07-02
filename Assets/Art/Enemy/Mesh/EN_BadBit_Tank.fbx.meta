@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 7d5f891855ea79e449343885321449d6
+timeCreated: 1492751019
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Body
+    100004: EN_BadBit_Red1
+    100006: //RootNode
+    100008: Eye
+    100010: front
+    100012: gun
+    100014: Mouth
+    100016: Neck
+    100018: Pupil
+    100020: Shadow
+    100022: tread1
+    100024: tread2
+    100026: tube
+    100028: Shake
+    100030: badbit
+    400000: Base
+    400002: Body
+    400004: EN_BadBit_Red1
+    400006: //RootNode
+    400008: Eye
+    400010: front
+    400012: gun
+    400014: Mouth
+    400016: Neck
+    400018: Pupil
+    400020: Shadow
+    400022: tread1
+    400024: tread2
+    400026: tube
+    400028: Shake
+    400030: badbit
+    2300000: Base
+    2300002: Body
+    2300004: Eye
+    2300006: front
+    2300008: gun
+    2300010: Mouth
+    2300012: Neck
+    2300014: Pupil
+    2300016: Shadow
+    2300018: tread1
+    2300020: tread2
+    2300022: tube
+    2300024: badbit
+    3300000: Base
+    3300002: Body
+    3300004: Eye
+    3300006: front
+    3300008: gun
+    3300010: Mouth
+    3300012: Neck
+    3300014: Pupil
+    3300016: Shadow
+    3300018: tread1
+    3300020: tread2
+    3300022: tube
+    3300024: badbit
+    4300000: Shadow
+    4300002: Base
+    4300004: Neck
+    4300006: Body
+    4300008: Eye
+    4300010: Pupil
+    4300012: Mouth
+    4300014: gun
+    4300016: tube
+    4300018: front
+    4300020: tread1
+    4300022: tread2
+    4300024: badbit
+    7400000: EN_BadBit_Walk_Tank
+    7400002: EN_BadBit_Death_Tank
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EN_BadBit_Walk_Tank
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Neck
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Eye
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Eye/Pupil
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Mouth
+        weight: 1
+      - path: Base/Neck/gun
+        weight: 1
+      - path: Base/Neck/gun/front
+        weight: 1
+      - path: Base/Neck/gun/tube
+        weight: 1
+      - path: Base/tread1
+        weight: 1
+      - path: Base/tread2
+        weight: 1
+      - path: Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EN_BadBit_Death_Tank
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: OnDeathComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Neck
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Eye
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Eye/Pupil
+        weight: 1
+      - path: Base/Neck/EN_BadBit_Red1/Body/Mouth
+        weight: 1
+      - path: Base/Neck/gun
+        weight: 1
+      - path: Base/Neck/gun/front
+        weight: 1
+      - path: Base/Neck/gun/tube
+        weight: 1
+      - path: Base/tread1
+        weight: 1
+      - path: Base/tread2
+        weight: 1
+      - path: Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: c88deceb0584fcc46994345d8d69c6b4
+timeCreated: 1493970093
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arrow
+    100002: Arrow_02
+    100004: Arrow_03
+    100006: Base4
+    100008: Body
+    100010: Bow
+    100012: BowRoot
+    100014: BowString
+    100016: Character
+    100018: Hat
+    100020: Loc_Muzzle
+    100022: Shadow
+    100024: StringBot
+    100026: StringTop
+    100028: Swivel
+    100030: //RootNode
+    100032: Arrow 1
+    100034: Base8
+    100036: Base9
+    100038: Body 1
+    100040: Bow 1
+    100042: BowRoot 1
+    100044: BowString 1
+    100046: Character 1
+    100048: Hat 1
+    100050: holster
+    100052: holster 1
+    100054: Loc_Muzzle 1
+    100056: Rotater
+    100058: Rotater 1
+    100060: StringBot 1
+    100062: StringTop 1
+    100064: Swivel 1
+    100066: TWR_Archer_L4
+    100068: TWR_Archer_L5
+    400000: Arrow
+    400002: Arrow_02
+    400004: Arrow_03
+    400006: Base4
+    400008: Body
+    400010: Bow
+    400012: BowRoot
+    400014: BowString
+    400016: Character
+    400018: Hat
+    400020: Loc_Muzzle
+    400022: Shadow
+    400024: StringBot
+    400026: StringTop
+    400028: Swivel
+    400030: //RootNode
+    400032: Arrow 1
+    400034: Base8
+    400036: Base9
+    400038: Body 1
+    400040: Bow 1
+    400042: BowRoot 1
+    400044: BowString 1
+    400046: Character 1
+    400048: Hat 1
+    400050: holster
+    400052: holster 1
+    400054: Loc_Muzzle 1
+    400056: Rotater
+    400058: Rotater 1
+    400060: StringBot 1
+    400062: StringTop 1
+    400064: Swivel 1
+    400066: TWR_Archer_L4
+    400068: TWR_Archer_L5
+    2300000: Arrow
+    2300002: Arrow_02
+    2300004: Arrow_03
+    2300006: Base4
+    2300008: Body
+    2300010: Bow
+    2300012: Hat
+    2300014: Shadow
+    2300016: StringBot
+    2300018: StringTop
+    2300020: Arrow 1
+    2300022: Base8
+    2300024: Base9
+    2300026: Body 1
+    2300028: Bow 1
+    2300030: Hat 1
+    2300032: holster
+    2300034: holster 1
+    2300036: Rotater
+    2300038: Rotater 1
+    2300040: StringBot 1
+    2300042: StringTop 1
+    3300000: Arrow
+    3300002: Arrow_02
+    3300004: Arrow_03
+    3300006: Base4
+    3300008: Body
+    3300010: Bow
+    3300012: Hat
+    3300014: Shadow
+    3300016: StringBot
+    3300018: StringTop
+    3300020: Arrow 1
+    3300022: Base8
+    3300024: Base9
+    3300026: Body 1
+    3300028: Bow 1
+    3300030: Hat 1
+    3300032: holster
+    3300034: holster 1
+    3300036: Rotater
+    3300038: Rotater 1
+    3300040: StringBot 1
+    3300042: StringTop 1
+    4300000: Base4
+    4300002: Shadow
+    4300004: Body
+    4300006: Hat
+    4300008: StringBot
+    4300010: StringTop
+    4300012: Bow
+    4300014: Arrow
+    4300016: Arrow_02
+    4300018: Arrow_03
+    4300020: Base8
+    4300022: Rotater
+    4300024: holster
+    4300026: Base9
+    4300028: Rotater
+    4300030: holster
+    4300032: Bow
+    4300034: StringBot
+    4300036: StringTop
+    4300038: Arrow
+    4300040: Body
+    4300042: Hat
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d8b7ff65411a56c488a41300ab8c77ac,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

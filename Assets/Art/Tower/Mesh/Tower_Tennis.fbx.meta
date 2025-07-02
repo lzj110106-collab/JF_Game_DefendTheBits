@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 856de0678e501b44f8bbf6e8c3a6990b
+timeCreated: 1456039458
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ball
+    100002: BallContainer
+    100004: CH_Tennis
+    100006: Dirt
+    100008: Loc_Muzzle
+    100010: Racket
+    100012: shadow
+    100014: Swivel
+    100016: Tennis
+    100018: //RootNode
+    100020: Net
+    100022: Base
+    100024: Body
+    100026: Character
+    100028: Weapon
+    400000: Ball
+    400002: BallContainer
+    400004: CH_Tennis
+    400006: Dirt
+    400008: Loc_Muzzle
+    400010: Racket
+    400012: shadow
+    400014: Swivel
+    400016: Tennis
+    400018: //RootNode
+    400020: Net
+    400022: Base
+    400024: Body
+    400026: Character
+    400028: Weapon
+    2300000: Ball
+    2300002: Dirt
+    2300004: Racket
+    2300006: shadow
+    2300008: Tennis
+    2300010: Net
+    2300012: Base
+    2300014: Body
+    2300016: Weapon
+    3300000: Ball
+    3300002: Dirt
+    3300004: Racket
+    3300006: shadow
+    3300008: Tennis
+    3300010: Net
+    3300012: Base
+    3300014: Body
+    3300016: Weapon
+    4300000: Dirt
+    4300002: shadow
+    4300004: Tennis
+    4300006: Racket
+    4300008: Ball
+    4300010: Net
+    4300012: Base
+    4300014: Body
+    4300016: Weapon
+    7400000: TWR_Tennis_Spawn
+    7400002: TWR_Tennis_Idle
+    7400004: TWR_Tennis_Attack
+    7400006: TWR_Tennis_Victory
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Tennis_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.34567901
+        functionName: TriggerShakeID
+        data: OnTowerSpawnImpact
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BallContainer
+        weight: 1
+      - path: Swivel/BallContainer/Ball
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Weapon
+        weight: 1
+      - path: Swivel/Character/Weapon/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Weapon/Net
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Tennis_Idle
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BallContainer
+        weight: 1
+      - path: Swivel/BallContainer/Ball
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Weapon
+        weight: 1
+      - path: Swivel/Character/Weapon/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Weapon/Net
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Tennis_Attack
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.42222226
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BallContainer
+        weight: 1
+      - path: Swivel/BallContainer/Ball
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Weapon
+        weight: 1
+      - path: Swivel/Character/Weapon/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Weapon/Net
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Tennis_Victory
+      takeName: Take 001
+      firstFrame: 86
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BallContainer
+        weight: 1
+      - path: Swivel/BallContainer/Ball
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Weapon
+        weight: 1
+      - path: Swivel/Character/Weapon/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Weapon/Net
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

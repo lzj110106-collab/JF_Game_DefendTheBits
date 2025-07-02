@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+1000,2000,RNG1,,,100,0.1,1,0,0,support
+1100,500,RNG1,,,200,0.1,1,0,0,support
+1200,600,RNG1,,,300,0.1,1,0,0,support
+1300,700,RNG1,,,400,0.1,1,0,0,support
+1400,800,RNG1,,,500,0.1,1,0,0,support

@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 20b34ff448a2bca49b4e30549c257f9a
+timeCreated: 1492737618
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Body
+    100004: EN_BadBit_Red1
+    100006: //RootNode
+    100008: Eye
+    100010: Mouth
+    100012: Neck
+    100014: pCube13
+    100016: pCube14
+    100018: pCube15
+    100020: pCube16
+    100022: pCube17
+    100024: pCube18
+    100026: pCube19
+    100028: Pupil
+    100030: Shadow
+    400000: Base
+    400002: Body
+    400004: EN_BadBit_Red1
+    400006: //RootNode
+    400008: Eye
+    400010: Mouth
+    400012: Neck
+    400014: pCube13
+    400016: pCube14
+    400018: pCube15
+    400020: pCube16
+    400022: pCube17
+    400024: pCube18
+    400026: pCube19
+    400028: Pupil
+    400030: Shadow
+    2300000: Base
+    2300002: Body
+    2300004: Eye
+    2300006: Mouth
+    2300008: Neck
+    2300010: pCube13
+    2300012: pCube14
+    2300014: pCube15
+    2300016: pCube16
+    2300018: pCube17
+    2300020: pCube18
+    2300022: pCube19
+    2300024: Pupil
+    2300026: Shadow
+    3300000: Base
+    3300002: Body
+    3300004: Eye
+    3300006: Mouth
+    3300008: Neck
+    3300010: pCube13
+    3300012: pCube14
+    3300014: pCube15
+    3300016: pCube16
+    3300018: pCube17
+    3300020: pCube18
+    3300022: pCube19
+    3300024: Pupil
+    3300026: Shadow
+    4300000: Shadow
+    4300002: Base
+    4300004: Neck
+    4300006: pCube15
+    4300008: pCube13
+    4300010: pCube14
+    4300012: pCube16
+    4300014: pCube17
+    4300016: pCube18
+    4300018: pCube19
+    4300020: Body
+    4300022: Eye
+    4300024: Pupil
+    4300026: Mouth
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

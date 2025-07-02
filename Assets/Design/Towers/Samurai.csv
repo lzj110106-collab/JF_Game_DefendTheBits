@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+1500,2100,MELEE2,Stealth,,5,0.35,3,0,0,melee&aoe&stealth
+2000,1400,MELEE3,Stealth,,6,0.35,3,0,0,melee&aoe&stealth
+2350,1700,MELEE3,Stealth,,7,0.4,3,0,0,melee&aoe&stealth
+2650,2050,MELEE3,Stealth,,9,0.4,3,0,0,melee&aoe&stealth
+3000,2150,MELEE3,Stealth,,11,0.45,3,0,0,melee&aoe&stealth

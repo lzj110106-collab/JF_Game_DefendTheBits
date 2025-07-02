@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014025624688}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014025624688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012167695848}
+  - component: {fileID: 114000013621359930}
+  - component: {fileID: 114000012227923222}
+  - component: {fileID: 114556057894266036}
+  - component: {fileID: 114922434901156862}
+  - component: {fileID: 114000013172926648}
+  - component: {fileID: 114219241200758366}
+  - component: {fileID: 114696298512275620}
+  - component: {fileID: 114315883882753436}
+  - component: {fileID: 114180622315982366}
+  - component: {fileID: 114105673607822970}
+  - component: {fileID: 114534253454987378}
+  m_Layer: 0
+  m_Name: _CSV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012167695848
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012227923222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b968544f78c549128c8141fb7034c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiers:
+  - list:
+    - csv: {fileID: 4900000, guid: 69a9f79d64781410fa6e54e5f0ddd90c, type: 3}
+      towerPrefab: {fileID: 129674, guid: 232aa8e148bc9774da02d1ff75b1c553, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: f51e4fbd93f8945d08919b5b9ac92cb4, type: 3}
+      towerPrefab: {fileID: 129674, guid: e03ae7cbf171bc640815b658b6add321, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 02d9eae53136340fc8cef8202ce52d0c, type: 3}
+      towerPrefab: {fileID: 129674, guid: e240a7a68b4ca4b46b31c3141c5a9412, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: a9da380c1724d44b588f9de0d04202bf, type: 3}
+      towerPrefab: {fileID: 129674, guid: 122c252d88853a0478544ea6acf53355, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 4aa04d9fade094f9ca11e4f5aadead6f, type: 3}
+      towerPrefab: {fileID: 129674, guid: fcd03c41b5570f346b55a75cc7341722, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 77d358e1481524eb9bbbe6158c0f5b84, type: 3}
+      towerPrefab: {fileID: 129674, guid: 9f859779d8eabd84eb05b83775dde058, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: a42a4b3780d0c4b86978388dba7f4131, type: 3}
+      towerPrefab: {fileID: 129674, guid: 9f55be06786d28d40bb4040920521aa0, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 4bbe794cd8eb14831b032cbc0594b573, type: 3}
+      towerPrefab: {fileID: 129674, guid: f5372c5d9abbe684e9cf38065c4358dd, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 80442e5b4e63c4cd88b0dd0b7ff0a56a, type: 3}
+      towerPrefab: {fileID: 129674, guid: b7ec6cba1eba3db4ba6efce5535d6d50, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: bafa0c85ad54f4ee398ace01aef9edd3, type: 3}
+      towerPrefab: {fileID: 129674, guid: 6855498271954a64fa6d09eff0fadc68, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: ca05f463db6ce4ce2b606d6279b7a1da, type: 3}
+      towerPrefab: {fileID: 129674, guid: 9b1a66a9b5bcd1a47b46744fc35f1803, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+  - list:
+    - csv: {fileID: 4900000, guid: 9f6098395038946d29ec0161ead72fed, type: 3}
+      towerPrefab: {fileID: 129674, guid: baef7f526f25ceb46ab22ea6deb26522, type: 2}
+      unlockTrinket: trinket_Ogre
+      trinketsRequired: 10
+    - csv: {fileID: 4900000, guid: 6a1fed760eaa34e1882fcf2c9ba9a0c1, type: 3}
+      towerPrefab: {fileID: 129674, guid: 4ff7055e9a153214ebb77b6adc96a7d2, type: 2}
+      unlockTrinket: trinket_Wayno
+      trinketsRequired: 10
+    - csv: {fileID: 4900000, guid: 116ec4ad70cf842899770c5378b3168b, type: 3}
+      towerPrefab: {fileID: 129674, guid: 07179c960aed954498f251b9af32e744, type: 2}
+      unlockTrinket: trinket_Ice
+      trinketsRequired: 15
+    - csv: {fileID: 4900000, guid: afc428275fc474bf0866c1bdfafbc30b, type: 3}
+      towerPrefab: {fileID: 129674, guid: 4cc46ac88b74c6d41947c814c36e2845, type: 2}
+      unlockTrinket: trinket_Pult
+      trinketsRequired: 15
+    - csv: {fileID: 4900000, guid: 13fa451ff7339f449a24c3110beb26e7, type: 3}
+      towerPrefab: {fileID: 129674, guid: b66952550ee728246a5cdf09e2caf450, type: 2}
+      unlockTrinket: trinket_Samurai
+      trinketsRequired: 20
+    - csv: {fileID: 4900000, guid: f7484340de7254a568ba5a5e2f1d3741, type: 3}
+      towerPrefab: {fileID: 129674, guid: 17fc979a825aa3741baf9c0d2ef9a13a, type: 2}
+      unlockTrinket: trinket_Goo
+      trinketsRequired: 20
+  - list:
+    - csv: {fileID: 4900000, guid: 41ed8c68f7ee64806bea91e883cd6582, type: 3}
+      towerPrefab: {fileID: 129674, guid: 432ce6d607b4ba04685f0d0e8d18b4b1, type: 2}
+      unlockTrinket: trinket_Dragon
+      trinketsRequired: 30
+    - csv: {fileID: 4900000, guid: 3e50204b170474cda96a67bec06a8704, type: 3}
+      towerPrefab: {fileID: 129674, guid: 4f4f908d2c3e58a4583ea90676404919, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+    - csv: {fileID: 4900000, guid: 1796c08bfc841ac489d50ed364ef3426, type: 3}
+      towerPrefab: {fileID: 129674, guid: 001c585477b032340b611d7d1f858cbd, type: 2}
+      unlockTrinket: 
+      trinketsRequired: 0
+  persistantTowerUpgrades: {fileID: 4900000, guid: 7037845cf1f9b475991fb633f4ca731e,
+    type: 3}
+  serverLocation: https://storage.googleapis.com/towers_test/Towers/
+  performServerLoad: 0
+--- !u!114 &114000013172926648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed62ce80524a8417690c8d57c84c2d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveCSV:
+  - {fileID: 4900000, guid: efa51744cf18b024a924485458a27f46, type: 3}
+  - {fileID: 4900000, guid: 8ceb9cd3c9b444a8abf21262c7de31b7, type: 3}
+  - {fileID: 4900000, guid: ec5307fbf34e83e4c977d6c79c7d5b5e, type: 3}
+  - {fileID: 4900000, guid: 04fb8fc372b0be1479e0ece0d21941eb, type: 3}
+  - {fileID: 4900000, guid: 73af8de9ffe994487affcb46b3cddea1, type: 3}
+  - {fileID: 4900000, guid: 8cb012e238c0e4cf4a1ab5fdf670c249, type: 3}
+  - {fileID: 4900000, guid: 45140da9916bbf144a648b3d37e3b762, type: 3}
+  - {fileID: 4900000, guid: 14e1f79d378704b398ebbc3f0c412ed4, type: 3}
+  - {fileID: 4900000, guid: fbbfa5353c5d18b489434a92fc7a9272, type: 3}
+  - {fileID: 4900000, guid: e3a8f3d99b9fe451597728c45586ab07, type: 3}
+  - {fileID: 4900000, guid: 9fe9d40debb44e24fa276d090689e716, type: 3}
+  - {fileID: 4900000, guid: 688102681a72b488da5fece549229fd3, type: 3}
+  - {fileID: 4900000, guid: 05c4762fbb7ee5148b4e664d5fab45aa, type: 3}
+  - {fileID: 4900000, guid: 0159f9d359a494cafa7af153628c8c0c, type: 3}
+  - {fileID: 4900000, guid: 344f3fb65172249fbb36b11fe57ad814, type: 3}
+  - {fileID: 4900000, guid: c3c5127fd487e402295d663df40bb825, type: 3}
+  - {fileID: 4900000, guid: 4917e56d3da964f7e9a3464337e674be, type: 3}
+  - {fileID: 4900000, guid: 3e06b7b46080145eeb0ec2fbefcec256, type: 3}
+  - {fileID: 4900000, guid: f4df7bb71f6bf44aab3babd5f8c0baa4, type: 3}
+  - {fileID: 4900000, guid: 4c444aff3145543368bb40af106f0759, type: 3}
+  - {fileID: 4900000, guid: 62553a5d026864753912720b29be1719, type: 3}
+  - {fileID: 4900000, guid: 2e13ab660b1534603950b1d07e0aab4d, type: 3}
+  - {fileID: 4900000, guid: eca99b01bd50d614bac904004c6b1a25, type: 3}
+  - {fileID: 4900000, guid: e2028c495eb1d3e47bee20ea896ecf01, type: 3}
+  - {fileID: 4900000, guid: 5125fe066a8a89148b20f853a562f9dc, type: 3}
+  - {fileID: 4900000, guid: 797a6d0f4e893064fb52229f632805b2, type: 3}
+  - {fileID: 4900000, guid: 6e8d214785b33de49964a1d2a2c63a35, type: 3}
+  - {fileID: 4900000, guid: 370c24bb9e3024c49b4560c7ae2dbef2, type: 3}
+  - {fileID: 4900000, guid: 090a6341262bb452cb12e8b3e127f883, type: 3}
+  - {fileID: 4900000, guid: 81c3ccc8dcb2448e18d68eb0d5cccd52, type: 3}
+  - {fileID: 4900000, guid: 2393a392438ec7242b721ac38cd11908, type: 3}
+  - {fileID: 4900000, guid: ca14893a4e543164b9de73687136ffaa, type: 3}
+  - {fileID: 4900000, guid: b5410f4c71d5b9c4c9a9123634ff4e9f, type: 3}
+  - {fileID: 4900000, guid: 268766fee97a5b54393c9b00682b3d36, type: 3}
+  - {fileID: 4900000, guid: afc3ce78a0cc2684a84e41b1fb7bd87b, type: 3}
+  - {fileID: 4900000, guid: e980e5caaca70534b90d8bf1be225d91, type: 3}
+  - {fileID: 4900000, guid: 81447b78deb96cf419690a69ad54f663, type: 3}
+  - {fileID: 4900000, guid: 3f58744448572f74e95e371c7b7887cf, type: 3}
+  - {fileID: 4900000, guid: f026561e0fb4da04e9002ac76c4a678e, type: 3}
+  endlessGoldBaseValue: 500
+  endlessGoldIncrease: 0
+  endlessGoldWavesPerIncrease: 10
+  endlessWaveCountPerDifficulty: 10
+  serverLocation: https://storage.googleapis.com/towers_test/Waves/
+  performServerLoad: 0
+--- !u!114 &114000013621359930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c5ccd1de3634a89842fcd36a88a377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RangeCSV: {fileID: 4900000, guid: f21b128ac66e6418ead73400056e5f10, type: 3}
+--- !u!114 &114105673607822970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9b0296421b24548ac620297325a1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceCSV: {fileID: 4900000, guid: 2f941b7d7362c46519f35f511769d8d8, type: 3}
+--- !u!114 &114180622315982366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6435defceae95417383b1639fb575c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlaySourceData:
+  - type: 0
+    prefab: {fileID: 1950013003706316, guid: 97be56f5a0cc8e8458031d85f163401c, type: 2}
+    prefabSlope: {fileID: 1950013003706316, guid: 35c493a8c071ecf46a88d72522528933,
+      type: 2}
+    fadeOutDuration: 0.05
+    entryAnimation: Entry
+    exitTrigger: Off
+    doesAdjustLandscape: 1
+--- !u!114 &114219241200758366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30124cd0e2a347a8bce587681131cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectData:
+  - type: 1
+    pfxPrefab: {fileID: 1326138394692576, guid: 1e246eadeab7b384faabd2a0dd78378c,
+      type: 2}
+    meshPrefab: {fileID: 0}
+    attachToLocator: 
+    iconUI: {fileID: 21300000, guid: 16b16e44ffe06e547a257e15f17f4395, type: 3}
+  - type: 2
+    pfxPrefab: {fileID: 1785492754203026, guid: 51b32b776f3755b4a953d1b6aee9c50f,
+      type: 2}
+    meshPrefab: {fileID: 0}
+    attachToLocator: 
+    iconUI: {fileID: 21300000, guid: 0dd536e30080d2847a57cecd630fa02b, type: 3}
+  - type: 4
+    pfxPrefab: {fileID: 1473513550031324, guid: e95760a3a97209643be742067140a12e,
+      type: 2}
+    meshPrefab: {fileID: 0}
+    attachToLocator: 
+    iconUI: {fileID: 21300000, guid: 2fd35904853c96c45b42f3500d4e0878, type: 3}
+  - type: 8
+    pfxPrefab: {fileID: 1955544987731988, guid: c46cf99395784914da651cc38a6ebd9b,
+      type: 2}
+    meshPrefab: {fileID: 0}
+    attachToLocator: LOC_Head
+    iconUI: {fileID: 21300000, guid: 2fd35904853c96c45b42f3500d4e0878, type: 3}
+  - type: 16
+    pfxPrefab: {fileID: 0}
+    meshPrefab: {fileID: 1345598301027638, guid: 75db9d42d8e4faf4ebff66373cddb489,
+      type: 2}
+    attachToLocator: LOC_Freeze
+    iconUI: {fileID: 21300000, guid: 2fd35904853c96c45b42f3500d4e0878, type: 3}
+--- !u!114 &114315883882753436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07508d954855042f9b1cb20a69682443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trinketPrefabs:
+  - {fileID: 114985384627591086, guid: eada278f7b37a0f4fbd473eef7765344, type: 2}
+  - {fileID: 114985384627591086, guid: 2d54a0da46d2bf44eb883fdfaa853012, type: 2}
+  - {fileID: 114985384627591086, guid: fd72b44cf918be640b261d8848f71ae5, type: 2}
+  - {fileID: 114985384627591086, guid: 2d16fa575791bd345b2bdf0079dfd458, type: 2}
+  - {fileID: 114985384627591086, guid: f7b9cb6166ef03349900dce770002f17, type: 2}
+  - {fileID: 114985384627591086, guid: 3851b7b04940fd34da46f81dadf22d1e, type: 2}
+  - {fileID: 114985384627591086, guid: 2b3ddd580722a654880977c2320f5fb9, type: 2}
+--- !u!114 &114534253454987378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688eb9c1a4b5d42a3858ea0ce6b3f54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  csv: {fileID: 4900000, guid: 1749a2f3887734baf938fc340d8f86f6, type: 3}
+--- !u!114 &114556057894266036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccb49198128c4c0c8414ce63cb26a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconData:
+  - identifer: burn
+    icon: {fileID: 21300000, guid: 30e82732e6cdaae4b917e17ca6923b7e, type: 3}
+  - identifer: freeze
+    icon: {fileID: 21300000, guid: 978f1109e13472b419b566250a288c13, type: 3}
+  - identifer: splash
+    icon: {fileID: 21300000, guid: dffb5b1c33bac4b4782b00f425a473f9, type: 3}
+  - identifer: multi
+    icon: {fileID: 21300000, guid: 1ad0df77d73228f4aafb50951d8ff0a9, type: 3}
+  - identifer: stun
+    icon: {fileID: 21300000, guid: d3bbbc06c8680964f93a28a12b748392, type: 3}
+  - identifer: slow
+    icon: {fileID: 21300000, guid: 8bf19d011a238f146bb4a3bd4d6fe44f, type: 3}
+  - identifer: aoe
+    icon: {fileID: 21300000, guid: aa42932401720554380a465742207aa9, type: 3}
+  - identifer: stealth
+    icon: {fileID: 21300000, guid: 6626eb882613e7f4991ac8e6d6bd5e99, type: 3}
+  - identifer: support
+    icon: {fileID: 21300000, guid: 8039fd6f5a4e7ee4db7dd22c7b4f4f77, type: 3}
+  - identifer: pierce
+    icon: {fileID: 21300000, guid: 2bd91b4eefc20d74caaa91961db1aa02, type: 3}
+  - identifer: return
+    icon: {fileID: 21300000, guid: bbbb55f06a9f5c144ba1ccd52e5ee76e, type: 3}
+  - identifer: split
+    icon: {fileID: 21300000, guid: 1ad0df77d73228f4aafb50951d8ff0a9, type: 3}
+  - identifer: melee
+    icon: {fileID: 21300000, guid: bcc9a5a60b851da4496cc1b43d31329e, type: 3}
+  - identifer: range
+    icon: {fileID: 21300000, guid: b774b7840c7fcc2469af82f2ce9d2cb8, type: 3}
+  - identifer: biggerexplosions
+    icon: {fileID: 21300000, guid: 8339e02cb3cefca43b8ff0e0e49eda19, type: 3}
+  - identifer: energyboost
+    icon: {fileID: 21300000, guid: cc72381230562ca488e6a5eac9204226, type: 3}
+  - identifer: goldmine
+    icon: {fileID: 21300000, guid: 080c17bff4fe5d84c8cb03375d4d8f77, type: 3}
+  - identifer: luckyduck
+    icon: {fileID: 21300000, guid: 8902d51ce9b23c14db9e1e1b64b84e4a, type: 3}
+  - identifer: pennypincher
+    icon: {fileID: 21300000, guid: 226de881f09f3054797de705e520aa9b, type: 3}
+  - identifer: shatter
+    icon: {fileID: 21300000, guid: 8b9c72b980dc7fa45b6dfbb87efba839, type: 3}
+  - identifer: swole
+    icon: {fileID: 21300000, guid: 4d1420885334a5844a452773cdb5958d, type: 3}
+  - identifer: twobirds
+    icon: {fileID: 21300000, guid: e1f37cabcae2d254f86e6a56421b2b26, type: 3}
+  - identifer: stickier
+    icon: {fileID: 21300000, guid: f36b4596522991b4b9101e32c2e714a2, type: 3}
+  - identifer: deepfreeze
+    icon: {fileID: 21300000, guid: 5a62d18508644e041b1bd48fcda060d2, type: 3}
+  - identifer: slowburn
+    icon: {fileID: 21300000, guid: 8175b2ce276d17741992de3c04c83379, type: 3}
+  - identifer: stunner
+    icon: {fileID: 21300000, guid: 9315ec9d36f456746a844faeb207cf32, type: 3}
+  - identifer: bargain
+    icon: {fileID: 21300000, guid: 86ae0be63639ea946a91c74937e0b945, type: 3}
+  - identifer: quest_defeat
+    icon: {fileID: 21300000, guid: abc786b8438401c418f72394ef07949e, type: 3}
+  - identifer: quest_upgrade
+    icon: {fileID: 21300000, guid: 7aabc20751bc6d84ca0dc269ff44040d, type: 3}
+  - identifer: quest_collect
+    icon: {fileID: 21300000, guid: 75dfab5eac2840646b768a542f96d569, type: 3}
+  - identifer: quest_complete
+    icon: {fileID: 21300000, guid: a8e7ed000a4d342488b571eb45008f90, type: 3}
+--- !u!114 &114696298512275620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165c6703402e741b4b9f1131aa520653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelDataCSV: {fileID: 4900000, guid: 53ad15267942846b6b63ef6e730ae6b4, type: 3}
+--- !u!114 &114922434901156862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025624688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420071bb51ad442b8b7c49cdf806f894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceData: {fileID: 4900000, guid: 0e835d1e259fe4f178b956ad436d3751, type: 3}
+  baseMovementSpeed: 2
+  serverLocation: https://storage.googleapis.com/towers_test/Design/MasterEnemyTable.csv
+  performServerLoad: 0

@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 515648e0baed9ea4fafc8dfdb68e5be2
+timeCreated: 1461476810
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Archer
+    100002: Arrow
+    100004: Base
+    100006: Bow
+    100008: BowRoot
+    100010: BowString
+    100012: CH_Archer
+    100014: Hat
+    100016: Loc_Muzzle
+    100018: Shadow
+    100020: StringBot
+    100022: StringTop
+    100024: Swivel
+    100026: //RootNode
+    100028: Body
+    100030: Arrow_02
+    100032: Arrow_03
+    100034: BowRoot1
+    100036: Character
+    100038: Base4
+    100040: Feather
+    100042: Quiver
+    400000: Archer
+    400002: Arrow
+    400004: Base
+    400006: Bow
+    400008: BowRoot
+    400010: BowString
+    400012: CH_Archer
+    400014: Hat
+    400016: Loc_Muzzle
+    400018: Shadow
+    400020: StringBot
+    400022: StringTop
+    400024: Swivel
+    400026: //RootNode
+    400028: Body
+    400030: Arrow_02
+    400032: Arrow_03
+    400034: BowRoot1
+    400036: Character
+    400038: Base4
+    400040: Feather
+    400042: Quiver
+    2300000: Archer
+    2300002: Arrow
+    2300004: Base
+    2300006: Bow
+    2300008: Hat
+    2300010: Shadow
+    2300012: StringBot
+    2300014: StringTop
+    2300016: Body
+    2300018: Arrow_02
+    2300020: Arrow_03
+    2300022: Base4
+    2300024: Feather
+    2300026: Quiver
+    3300000: Archer
+    3300002: Arrow
+    3300004: Base
+    3300006: Bow
+    3300008: Hat
+    3300010: Shadow
+    3300012: StringBot
+    3300014: StringTop
+    3300016: Body
+    3300018: Arrow_02
+    3300020: Arrow_03
+    3300022: Base4
+    3300024: Feather
+    3300026: Quiver
+    4300000: Base
+    4300002: Shadow
+    4300004: Archer
+    4300006: Hat
+    4300008: StringBot
+    4300010: StringTop
+    4300012: Bow
+    4300014: Arrow
+    4300016: Body
+    4300018: Arrow_02
+    4300020: Arrow_03
+    4300022: Base4
+    4300024: Quiver
+    4300026: Feather
+    7400000: TWR_Archer_L2_Spawn
+    7400002: TWR_Archer_L2_Idle
+    7400004: TWR_Archer_L2_Attack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Archer_L2_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.72368425
+        functionName: TriggerShakeID
+        data: OnTowerSpawnImpact
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BowRoot
+        weight: 1
+      - path: Swivel/BowRoot/Arrow
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_02
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_03
+        weight: 1
+      - path: Swivel/BowRoot/Bow
+        weight: 1
+      - path: Swivel/BowRoot/BowString
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringBot
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringTop
+        weight: 1
+      - path: Swivel/BowRoot/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Hat
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Archer_L2_Idle
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BowRoot
+        weight: 1
+      - path: Swivel/BowRoot/Arrow
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_02
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_03
+        weight: 1
+      - path: Swivel/BowRoot/Bow
+        weight: 1
+      - path: Swivel/BowRoot/BowString
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringBot
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringTop
+        weight: 1
+      - path: Swivel/BowRoot/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Hat
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Archer_L2_Attack
+      takeName: Take 001
+      firstFrame: 56
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5084622
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/BowRoot
+        weight: 1
+      - path: Swivel/BowRoot/Arrow
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_02
+        weight: 1
+      - path: Swivel/BowRoot/Arrow_03
+        weight: 1
+      - path: Swivel/BowRoot/Bow
+        weight: 1
+      - path: Swivel/BowRoot/BowString
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringBot
+        weight: 1
+      - path: Swivel/BowRoot/BowString/StringTop
+        weight: 1
+      - path: Swivel/BowRoot/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Hat
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

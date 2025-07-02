@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: f3be1040520e9f64698f50be825fbbcc
+timeCreated: 1495418222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Body
+    100004: Character
+    100006: Fin_01
+    100008: Fin_02
+    100010: Fin_03
+    100012: Jaw
+    100014: Loc_Muzzle
+    100016: RearFin
+    100018: Shadow
+    100020: Swivel
+    100022: //RootNode
+    100024: Water_A
+    100026: Water_B
+    400000: Base
+    400002: Body
+    400004: Character
+    400006: Fin_01
+    400008: Fin_02
+    400010: Fin_03
+    400012: Jaw
+    400014: Loc_Muzzle
+    400016: RearFin
+    400018: Shadow
+    400020: Swivel
+    400022: //RootNode
+    400024: Water_A
+    400026: Water_B
+    2300000: Base
+    2300002: Body
+    2300004: Fin_01
+    2300006: Fin_02
+    2300008: Fin_03
+    2300010: Jaw
+    2300012: RearFin
+    2300014: Shadow
+    2300016: Water_A
+    2300018: Water_B
+    3300000: Base
+    3300002: Body
+    3300004: Fin_01
+    3300006: Fin_02
+    3300008: Fin_03
+    3300010: Jaw
+    3300012: RearFin
+    3300014: Shadow
+    3300016: Water_A
+    3300018: Water_B
+    4300000: Base
+    4300002: Water_A
+    4300004: Water_B
+    4300006: Shadow
+    4300008: Body
+    4300010: RearFin
+    4300012: Jaw
+    4300014: Fin_03
+    4300016: Fin_02
+    4300018: Fin_01
+    7400000: Tower_Toes_Spawn
+    7400002: Tower_Toes_Idle
+    7400004: Tower_Toes_AttackStart
+    7400006: Tower_Toes_AttackIdle
+    7400008: Tower_Toes_AttackEnd
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tower_Toes_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Water_A
+        weight: 1
+      - path: Base/Water_B
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Fin_01
+        weight: 1
+      - path: Swivel/Character/Body/Fin_02
+        weight: 1
+      - path: Swivel/Character/Body/Fin_03
+        weight: 1
+      - path: Swivel/Character/Body/Jaw
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Body/RearFin
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tower_Toes_Idle
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Water_A
+        weight: 1
+      - path: Base/Water_B
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Fin_01
+        weight: 1
+      - path: Swivel/Character/Body/Fin_02
+        weight: 1
+      - path: Swivel/Character/Body/Fin_03
+        weight: 1
+      - path: Swivel/Character/Body/Jaw
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Body/RearFin
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tower_Toes_AttackStart
+      takeName: Take 001
+      firstFrame: 66
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.97543
+        functionName: PlayEffect
+        data: PFX_Laser_Burst
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: AnimEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Water_A
+        weight: 1
+      - path: Base/Water_B
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Fin_01
+        weight: 1
+      - path: Swivel/Character/Body/Fin_02
+        weight: 1
+      - path: Swivel/Character/Body/Fin_03
+        weight: 1
+      - path: Swivel/Character/Body/Jaw
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Body/RearFin
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tower_Toes_AttackIdle
+      takeName: Take 001
+      firstFrame: 82
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Water_A
+        weight: 1
+      - path: Base/Water_B
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Fin_01
+        weight: 1
+      - path: Swivel/Character/Body/Fin_02
+        weight: 1
+      - path: Swivel/Character/Body/Fin_03
+        weight: 1
+      - path: Swivel/Character/Body/Jaw
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Body/RearFin
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tower_Toes_AttackEnd
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: AnimEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/Water_A
+        weight: 1
+      - path: Base/Water_B
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Fin_01
+        weight: 1
+      - path: Swivel/Character/Body/Fin_02
+        weight: 1
+      - path: Swivel/Character/Body/Fin_03
+        weight: 1
+      - path: Swivel/Character/Body/Jaw
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Body/RearFin
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

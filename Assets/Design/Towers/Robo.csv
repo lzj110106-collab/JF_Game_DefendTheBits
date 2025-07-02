@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius
+0,4150,RNG3,Default,,1,5,1,0,0
+0,4750,RNG4,Default,,1,7,1,0,0
+0,8900,RNG4,Default,,1,8,1,0,0
+0,18400,RNG4,Default,,1,9,1,0,0
+0,23750,RNG4,Default,,1,10,1,0,0

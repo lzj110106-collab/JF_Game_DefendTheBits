@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 6c4536e95c21a5d4693eb2230a28ef1b
+timeCreated: 1493970093
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arrow
+    100002: Base
+    100004: Body
+    100006: Bow
+    100008: BowRoot
+    100010: BowString
+    100012: Character
+    100014: Hat
+    100016: Loc_Muzzle
+    100018: Shadow
+    100020: StringBot
+    100022: StringTop
+    100024: Swivel
+    100026: //RootNode
+    100028: Arrow_02
+    100030: Arrow_03
+    100032: Base7
+    100034: Bow1
+    100036: Base4
+    100038: Feather
+    100040: Quiver
+    400000: Arrow
+    400002: Base
+    400004: Body
+    400006: Bow
+    400008: BowRoot
+    400010: BowString
+    400012: Character
+    400014: Hat
+    400016: Loc_Muzzle
+    400018: Shadow
+    400020: StringBot
+    400022: StringTop
+    400024: Swivel
+    400026: //RootNode
+    400028: Arrow_02
+    400030: Arrow_03
+    400032: Base7
+    400034: Bow1
+    400036: Base4
+    400038: Feather
+    400040: Quiver
+    2300000: Arrow
+    2300002: Base
+    2300004: Body
+    2300006: Bow
+    2300008: Hat
+    2300010: Shadow
+    2300012: StringBot
+    2300014: StringTop
+    2300016: Arrow_02
+    2300018: Arrow_03
+    2300020: Base7
+    2300022: Bow1
+    2300024: Base4
+    2300026: Feather
+    2300028: Quiver
+    3300000: Arrow
+    3300002: Base
+    3300004: Body
+    3300006: Bow
+    3300008: Hat
+    3300010: Shadow
+    3300012: StringBot
+    3300014: StringTop
+    3300016: Arrow_02
+    3300018: Arrow_03
+    3300020: Base7
+    3300022: Bow1
+    3300024: Base4
+    3300026: Feather
+    3300028: Quiver
+    4300000: Base
+    4300002: Shadow
+    4300004: Body
+    4300006: Hat
+    4300008: StringBot
+    4300010: StringTop
+    4300012: Bow
+    4300014: Arrow
+    4300016: Base7
+    4300018: Bow1
+    4300020: Arrow_02
+    4300022: Arrow_03
+    4300024: Base4
+    4300026: Quiver
+    4300028: Feather
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d8b7ff65411a56c488a41300ab8c77ac,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

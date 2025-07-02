@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+550,600,MELEE1,Default,Slow;0.45;1,0,0.4,2,0.01,0.75,slow&splash
+600,400,MELEE1,Default,Slow;0.42;1,0,0.4,2,0.01,0.75,slow&splash
+800,550,MELEE2,Default,Slow;0.42;1,0,0.4,3,0.01,0.75,slow&splash
+1000,950,RNG2,Default,Slow;0.4;1,0,0.5,3,0.01,0.75,slow&splash
+1200,1300,RNG2,Default,Slow;0.4;1,0,0.5,4,0.01,0.75,slow&splash

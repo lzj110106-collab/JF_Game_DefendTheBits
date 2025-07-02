@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 415692}
+  - component: {fileID: 6597028}
+  - component: {fileID: 11452486}
+  - component: {fileID: 11434432}
+  m_Layer: 0
+  m_Name: TWR_Archer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 407846}
+  m_Layer: 0
+  m_Name: Art
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &415692
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 407846}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6597028
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11434432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26d1ff1cb1d54ce8a8e1835a5ee13cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  category: 2
+  debugColor: {r: 1, g: 1, b: 1, a: 1}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  fireAnimationSpeed: 1
+  maxEnemiesHit: -1
+  onFireCameraShake:
+    id: 4
+    direction: {x: 0, y: 1, z: 0}
+    randomJitter: 0
+    intensity: 0
+    frequency: 0
+    duration: 0
+  onImpactCameraShake:
+    id: 6
+    direction: {x: 0, y: -1, z: 0}
+    randomJitter: 0
+    intensity: 0
+    frequency: 0
+    duration: 0
+  parentCharacter: {fileID: 0}
+  parentTower: {fileID: 0}
+--- !u!114 &11452486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97e923d825144a5aa421a50fd6d1b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerName: Archer
+  icon: {fileID: 21300000, guid: 3bf2adaaa90eb9a40bcd14626289c31e, type: 3}
+  towerUpgradePrefabs:
+  - {fileID: 1000011977419524, guid: e077315a9d5144d629f02e6ec22bf938, type: 2}
+  - {fileID: 1000011977419524, guid: c50e47628f9ab3246a855ca4c3824f28, type: 2}
+  - {fileID: 1024870536497500, guid: d01b7b66b6cce9048b704d4a3014f803, type: 2}
+  - {fileID: 1024870536497500, guid: a55a020625dca994ea20a411ce21c1df, type: 2}
+  - {fileID: 1295070433192138, guid: 0f95af6310112644c9eaabb7b2a5f50f, type: 2}
+  pfx:
+    entries:
+    - type: 5
+      prefab: {fileID: 142464, guid: 1ae5f6040a021c6459df4468642a9e68, type: 2}
+      locator: {fileID: 415692}
+  localTimeScale: 0
+  shouldDestroyTower: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: towerUpgradePrefabs.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: towerUpgradePrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 104386, guid: e4677c6fd849041c08f63b38048cee12, type: 2}
+    - target: {fileID: 0}
+      propertyPath: towerName
+      value: Ninja
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterPrefab
+      value: 
+      objectReference: {fileID: 153886, guid: 83c1bb5ae3340b84781cafbbddd0b3f8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 7125ee247f904dc458d7e8e71a2cd8a5,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 129674}
+  m_IsPrefabParent: 1

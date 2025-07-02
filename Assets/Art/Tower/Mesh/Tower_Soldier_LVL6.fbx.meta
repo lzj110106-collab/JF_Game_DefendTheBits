@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: bc123a12dbb90b84b9ef11e00ff10a64
+timeCreated: 1490053569
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Base
+    100004: Body
+    100006: Buckle_Left
+    100008: Buckle_Right
+    100010: Character
+    100012: Diamond
+    100014: Hat
+    100016: Loc_Muzzle
+    100018: Seat
+    100020: shadow
+    100022: Swivel
+    100024: Tank
+    100026: //RootNode
+    400000: Barrel
+    400002: Base
+    400004: Body
+    400006: Buckle_Left
+    400008: Buckle_Right
+    400010: Character
+    400012: Diamond
+    400014: Hat
+    400016: Loc_Muzzle
+    400018: Seat
+    400020: shadow
+    400022: Swivel
+    400024: Tank
+    400026: //RootNode
+    2300000: Barrel
+    2300002: Base
+    2300004: Body
+    2300006: Buckle_Left
+    2300008: Buckle_Right
+    2300010: Diamond
+    2300012: Hat
+    2300014: Seat
+    2300016: shadow
+    2300018: Tank
+    3300000: Barrel
+    3300002: Base
+    3300004: Body
+    3300006: Buckle_Left
+    3300008: Buckle_Right
+    3300010: Diamond
+    3300012: Hat
+    3300014: Seat
+    3300016: shadow
+    3300018: Tank
+    4300000: Base
+    4300002: shadow
+    4300004: Tank
+    4300006: Seat
+    4300008: Diamond
+    4300010: Body
+    4300012: Hat
+    4300014: Buckle_Left
+    4300016: Buckle_Right
+    4300018: Barrel
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8541f006ae49ac74a8d0eae8235d41ec,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

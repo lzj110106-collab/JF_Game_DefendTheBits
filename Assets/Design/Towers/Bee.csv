@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+750,900,CRSRNG2,Default,,1,0.85,5,0,0,range&split&pierce
+900,800,CRSRNG2,Default,,1,1,5,0,0,range&split&pierce
+1200,1050,CRSRNG3,Default,,1,1.1,5,0,0,range&split&pierce
+1400,1800,CRSRNG3,Default,,2,1.1,5,0,0,range&split&pierce
+1500,1900,CRSRNG4,Default,,2,1.1,5,0,0,range&split&pierce

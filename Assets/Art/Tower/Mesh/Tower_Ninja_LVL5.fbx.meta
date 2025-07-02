@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: b67a234d5be344940a5d3c1b042c4bcb
+timeCreated: 1441121543
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: body
+    100004: CH_Ninja
+    100006: Loc_Muzzle
+    100008: Pole_01
+    100010: Pole_02
+    100012: Pole_03
+    100014: Pole_04
+    100016: Rope_01
+    100018: Rope_02
+    100020: Rope_03
+    100022: shadow
+    100024: Swivel
+    100026: ThrowingStar
+    100028: //RootNode
+    100030: Base
+    100032: Poles_1
+    100034: Poles_2
+    100036: Poles_3
+    100038: Statue
+    100040: Loc_Headhand
+    100042: Ninja
+    100044: Shadow
+    100046: NinjaStar
+    100048: Body
+    100050: Character
+    100052: Weapon
+    100054: Body2
+    100056: Band
+    100058: BN_Ribbon01
+    100060: BN_Ribbon02
+    100062: BN_Ribbon03
+    100064: Ribbon
+    400000: base
+    400002: body
+    400004: CH_Ninja
+    400006: Loc_Muzzle
+    400008: Pole_01
+    400010: Pole_02
+    400012: Pole_03
+    400014: Pole_04
+    400016: Rope_01
+    400018: Rope_02
+    400020: Rope_03
+    400022: shadow
+    400024: Swivel
+    400026: ThrowingStar
+    400028: //RootNode
+    400030: Base
+    400032: Poles_1
+    400034: Poles_2
+    400036: Poles_3
+    400038: Statue
+    400040: Loc_Headhand
+    400042: Ninja
+    400044: Shadow
+    400046: NinjaStar
+    400048: Body
+    400050: Character
+    400052: Weapon
+    400054: Body2
+    400056: Band
+    400058: BN_Ribbon01
+    400060: BN_Ribbon02
+    400062: BN_Ribbon03
+    400064: Ribbon
+    2300000: body
+    2300002: Pole_01
+    2300004: Pole_02
+    2300006: Pole_03
+    2300008: Pole_04
+    2300010: Rope_01
+    2300012: Rope_02
+    2300014: Rope_03
+    2300016: shadow
+    2300018: ThrowingStar
+    2300020: Base
+    2300022: Poles_1
+    2300024: Poles_2
+    2300026: Poles_3
+    2300028: Statue
+    2300030: Ninja
+    2300032: Shadow
+    2300034: NinjaStar
+    2300036: Body
+    2300038: Weapon
+    2300040: Body2
+    2300042: Band
+    3300000: body
+    3300002: Pole_01
+    3300004: Pole_02
+    3300006: Pole_03
+    3300008: Pole_04
+    3300010: Rope_01
+    3300012: Rope_02
+    3300014: Rope_03
+    3300016: shadow
+    3300018: ThrowingStar
+    3300020: Base
+    3300022: Poles_1
+    3300024: Poles_2
+    3300026: Poles_3
+    3300028: Statue
+    3300030: Ninja
+    3300032: Shadow
+    3300034: NinjaStar
+    3300036: Body
+    3300038: Weapon
+    3300040: Body2
+    3300042: Band
+    4300000: Rope_01
+    4300002: Rope_02
+    4300004: Rope_03
+    4300006: Pole_01
+    4300008: Pole_02
+    4300010: Pole_03
+    4300012: Pole_04
+    4300014: shadow
+    4300016: body
+    4300018: ThrowingStar
+    4300020: Base
+    4300022: Statue
+    4300024: Poles_1
+    4300026: Poles_2
+    4300028: Poles_3
+    4300030: Shadow
+    4300032: Ninja
+    4300034: NinjaStar
+    4300036: Body
+    4300038: Weapon
+    4300040: Body2
+    4300042: Ribbon
+    4300044: Band
+    7400000: TWR_Ninja_Spawn
+    7400002: TWR_Ninja_Idle
+    7400004: TWR_Ninja_Attack
+    9500000: //RootNode
+    13700000: Ribbon
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Ninja_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6719858
+        functionName: TriggerShakeID
+        data: OnTowerSpawnImpact
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Headhand
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle/Weapon
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Ninja_Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Headhand
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle/Weapon
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Ninja_Attack
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.25126177
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Character/Body/Loc_Headhand
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Loc_Muzzle/Weapon
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9f04bc5158802644cb743632125e7f92,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

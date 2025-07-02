@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 415692}
+  - component: {fileID: 6597028}
+  - component: {fileID: 11452486}
+  - component: {fileID: 11434432}
+  m_Layer: 0
+  m_Name: TWR_Pult
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 407846}
+  m_Layer: 0
+  m_Name: Art
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &415692
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.56, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 407846}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6597028
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11434432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26d1ff1cb1d54ce8a8e1835a5ee13cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  category: 2
+  debugColor: {r: 1, g: 1, b: 1, a: 1}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  fireAnimationSpeed: 1
+  maxEnemiesHit: -1
+  onFireCameraShake:
+    id: 4
+    direction: {x: 0, y: 1, z: 0}
+    randomJitter: 0.5
+    intensity: 0.25
+    frequency: 4
+    duration: 0.25
+  onImpactCameraShake:
+    id: 6
+    direction: {x: 0, y: -1, z: 0}
+    randomJitter: 0
+    intensity: 0.15
+    frequency: 4
+    duration: 0.25
+  parentCharacter: {fileID: 0}
+  parentTower: {fileID: 0}
+  pathOverlayType: 0
+  pathOverlayDuration: 5
+  createPathOverlays: 0
+  passiveAttackLoopDuration: 2
+  rotateToFaceEnemy: 1
+  showKillCount: 1
+--- !u!114 &11452486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97e923d825144a5aa421a50fd6d1b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerName: Pult
+  icon: {fileID: 21300000, guid: 6fa40794d3b7a7b44ba289cb2dcf5acb, type: 3}
+  towerUpgradePrefabs:
+  - {fileID: 1000011116394518, guid: 9b694e1da5f0749cf8e4a11a9b1a0f54, type: 2}
+  - {fileID: 1243961288911010, guid: d34b780e7a0fb5242aa7bd977415c490, type: 2}
+  - {fileID: 1000011116394518, guid: 409fd9b4ec742e149a573bc4271d33b4, type: 2}
+  - {fileID: 1703272768445810, guid: 30b4879efac4f5c4092a8598835bb303, type: 2}
+  - {fileID: 1604249775582642, guid: e5c80177a04a33445bc59c956a1f5064, type: 2}
+  pfx:
+    entries:
+    - type: 5
+      prefab: {fileID: 142464, guid: 4b36650e9d3f2d649b557df8790a2cad, type: 2}
+      locator: {fileID: 415692}
+  localTimeScale: 0
+  shouldDestroyTower: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: towerUpgradePrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: towerUpgradePrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 129674, guid: 8044c322431d88e4fabf7c7e21733a7a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: towerName
+      value: Gerald
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: swivelTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fireRate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: price
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: eba88e0bfbecf44479161424279627d7,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: characterPrefab
+      value: 
+      objectReference: {fileID: 172882, guid: a75fcae22fc8f8842a6a4ac87f3a580a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pfx.entries.Array.data[0].particleSystem
+      value: 
+      objectReference: {fileID: 19885744, guid: 4b36650e9d3f2d649b557df8790a2cad,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 129674}
+  m_IsPrefabParent: 1

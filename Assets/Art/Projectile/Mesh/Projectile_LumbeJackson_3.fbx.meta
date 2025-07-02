@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 4a6708ee81dffe144bfb1e8f74febd9e
+timeCreated: 1439720656
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Belt_L
+    100002: Belt_R
+    100004: Blade
+    100006: BladeNode
+    100008: DirtBlock_01
+    100010: DirtBlock_02
+    100012: DirtBlock_03
+    100014: DirtBlock_04
+    100016: DirtBlock_05
+    100018: DirtBlock_06
+    100020: DirtBlock_07
+    100022: DirtBlock_08
+    100024: DirtBlock_09
+    100026: DirtBlock_10
+    100028: DirtBlock_11
+    100030: DirtBlocks
+    100032: Hole
+    100034: Loc_BladeEnd
+    100036: Loc_BladeStart
+    100038: //RootNode
+    400000: Belt_L
+    400002: Belt_R
+    400004: Blade
+    400006: BladeNode
+    400008: DirtBlock_01
+    400010: DirtBlock_02
+    400012: DirtBlock_03
+    400014: DirtBlock_04
+    400016: DirtBlock_05
+    400018: DirtBlock_06
+    400020: DirtBlock_07
+    400022: DirtBlock_08
+    400024: DirtBlock_09
+    400026: DirtBlock_10
+    400028: DirtBlock_11
+    400030: DirtBlocks
+    400032: Hole
+    400034: Loc_BladeEnd
+    400036: Loc_BladeStart
+    400038: //RootNode
+    2300000: Belt_L
+    2300002: Belt_R
+    2300004: Blade
+    2300006: DirtBlock_01
+    2300008: DirtBlock_02
+    2300010: DirtBlock_03
+    2300012: DirtBlock_04
+    2300014: DirtBlock_05
+    2300016: DirtBlock_06
+    2300018: DirtBlock_07
+    2300020: DirtBlock_08
+    2300022: DirtBlock_09
+    2300024: DirtBlock_10
+    2300026: DirtBlock_11
+    2300028: Hole
+    3300000: Belt_L
+    3300002: Belt_R
+    3300004: Blade
+    3300006: DirtBlock_01
+    3300008: DirtBlock_02
+    3300010: DirtBlock_03
+    3300012: DirtBlock_04
+    3300014: DirtBlock_05
+    3300016: DirtBlock_06
+    3300018: DirtBlock_07
+    3300020: DirtBlock_08
+    3300022: DirtBlock_09
+    3300024: DirtBlock_10
+    3300026: DirtBlock_11
+    3300028: Hole
+    4300000: Hole
+    4300002: Belt_R
+    4300004: Belt_L
+    4300006: Blade
+    4300008: DirtBlock_01
+    4300010: DirtBlock_02
+    4300012: DirtBlock_03
+    4300014: DirtBlock_04
+    4300016: DirtBlock_05
+    4300018: DirtBlock_06
+    4300020: DirtBlock_07
+    4300022: DirtBlock_08
+    4300024: DirtBlock_09
+    4300026: DirtBlock_10
+    4300028: DirtBlock_11
+    7400000: PRJ_LumberJackson_3
+    7400002: PRJ_LumberJackson_3_Spawn
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PRJ_LumberJackson_3
+      takeName: Take 001
+      firstFrame: 17
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BladeNode
+        weight: 1
+      - path: BladeNode/Belt_L
+        weight: 1
+      - path: BladeNode/Belt_R
+        weight: 1
+      - path: BladeNode/Blade
+        weight: 1
+      - path: DirtBlocks
+        weight: 1
+      - path: DirtBlocks/DirtBlock_01
+        weight: 1
+      - path: DirtBlocks/DirtBlock_02
+        weight: 1
+      - path: DirtBlocks/DirtBlock_03
+        weight: 1
+      - path: DirtBlocks/DirtBlock_04
+        weight: 1
+      - path: DirtBlocks/DirtBlock_05
+        weight: 1
+      - path: DirtBlocks/DirtBlock_06
+        weight: 1
+      - path: DirtBlocks/DirtBlock_07
+        weight: 1
+      - path: DirtBlocks/DirtBlock_08
+        weight: 1
+      - path: DirtBlocks/DirtBlock_09
+        weight: 1
+      - path: DirtBlocks/DirtBlock_10
+        weight: 1
+      - path: DirtBlocks/DirtBlock_11
+        weight: 1
+      - path: Hole
+        weight: 1
+      - path: Loc_BladeEnd
+        weight: 1
+      - path: Loc_BladeStart
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PRJ_LumberJackson_3_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BladeNode
+        weight: 1
+      - path: BladeNode/Belt_L
+        weight: 1
+      - path: BladeNode/Belt_R
+        weight: 1
+      - path: BladeNode/Blade
+        weight: 1
+      - path: DirtBlocks
+        weight: 1
+      - path: DirtBlocks/DirtBlock_01
+        weight: 1
+      - path: DirtBlocks/DirtBlock_02
+        weight: 1
+      - path: DirtBlocks/DirtBlock_03
+        weight: 1
+      - path: DirtBlocks/DirtBlock_04
+        weight: 1
+      - path: DirtBlocks/DirtBlock_05
+        weight: 1
+      - path: DirtBlocks/DirtBlock_06
+        weight: 1
+      - path: DirtBlocks/DirtBlock_07
+        weight: 1
+      - path: DirtBlocks/DirtBlock_08
+        weight: 1
+      - path: DirtBlocks/DirtBlock_09
+        weight: 1
+      - path: DirtBlocks/DirtBlock_10
+        weight: 1
+      - path: DirtBlocks/DirtBlock_11
+        weight: 1
+      - path: Hole
+        weight: 1
+      - path: Loc_BladeEnd
+        weight: 1
+      - path: Loc_BladeStart
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

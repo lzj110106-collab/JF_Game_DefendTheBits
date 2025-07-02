@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 8aae117ba37bcf844baca67eb4cde6b2
+timeCreated: 1493876835
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: CH_Penelope
+    100004: Cloud_00
+    100006: Cloud_01
+    100008: Cloud_02
+    100010: Cloud_03
+    100012: Cloud_04
+    100014: Cloud_05
+    100016: Clouds
+    100018: Hair
+    100020: Horn
+    100022: Loc_Muzzle
+    100024: Penelope
+    100026: Swivel
+    100028: //RootNode
+    100030: Circlet
+    400000: Base
+    400002: CH_Penelope
+    400004: Cloud_00
+    400006: Cloud_01
+    400008: Cloud_02
+    400010: Cloud_03
+    400012: Cloud_04
+    400014: Cloud_05
+    400016: Clouds
+    400018: Hair
+    400020: Horn
+    400022: Loc_Muzzle
+    400024: Penelope
+    400026: Swivel
+    400028: //RootNode
+    400030: Circlet
+    2300000: Base
+    2300002: Cloud_00
+    2300004: Cloud_01
+    2300006: Cloud_02
+    2300008: Cloud_03
+    2300010: Cloud_04
+    2300012: Cloud_05
+    2300014: Hair
+    2300016: Horn
+    2300018: Penelope
+    2300020: Circlet
+    3300000: Base
+    3300002: Cloud_00
+    3300004: Cloud_01
+    3300006: Cloud_02
+    3300008: Cloud_03
+    3300010: Cloud_04
+    3300012: Cloud_05
+    3300014: Hair
+    3300016: Horn
+    3300018: Penelope
+    3300020: Circlet
+    4300000: Base
+    4300002: Cloud_00
+    4300004: Cloud_01
+    4300006: Cloud_02
+    4300008: Cloud_03
+    4300010: Cloud_04
+    4300012: Cloud_05
+    4300014: Penelope
+    4300016: Horn
+    4300018: Hair
+    4300020: Circlet
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7826f64e46fa0ee4288088363ed742a5,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

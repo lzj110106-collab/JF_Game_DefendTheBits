@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+950,650,RNG8,Stealth,,2,0.4,1,1,0.5,range&stealth&splash
+1300,600,RNG8,Stealth,,4,0.4,1,1,0.5,range&stealth&splash
+1650,950,RNG8,Stealth,,5,0.45,2,1,0.5,range&stealth&splash&multi
+2100,1750,RNG8,Stealth,,6,0.45,2,1,0.5,range&stealth&splash&multi
+2500,2100,RNG8,Stealth,,7,0.45,2,1,0.5,range&stealth&splash&multi

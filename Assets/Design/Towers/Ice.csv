@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+1400,2350,LNGRNG1,Default&Frozen,Freeze;0.6;2.5,4,0.325,1,1.5,1,range&freeze&splash
+1900,1750,LNGRNG3,Default&Frozen,Freeze;0.6;2.5,6,0.325,1,2,1.2,range&freeze&splash
+2200,2100,LNGRNG3,Default&Frozen,Freeze;0.6;3,7,0.35,1,2,1.2,range&freeze&splash
+2550,2500,LNGRNG3,Default&Frozen,Freeze;0.6;3,9,0.35,1,2,1.3,range&freeze&splash
+2800,2900,LNGRNG4,Default&Frozen,Freeze;0.6;3,12,0.37,1,3,1.3,range&freeze&splash

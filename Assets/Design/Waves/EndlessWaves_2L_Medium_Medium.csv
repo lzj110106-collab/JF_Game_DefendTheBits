@@ -1,0 +1,50 @@
+EndlessWaves_2L_Medium_Medium,,,,,
+Enemy Type,Initial Spawn Delay,Enemy Count,Enemy Spawn Interval, Speed Multiplier, Path
+enemy_13,0,10,1.5,0.9,0
+#reward,800,,,,
+,,,Wave 1,,
+enemy_13,0,20,1.3,0.9,1
+#reward,800,,,,
+,,,Wave 2,,
+enemy_13,0,30,1.2,0.9,0
+#reward,800,,,,
+,,,Wave 3,,
+boss_wayno,0,1,15,1.05,0
+enemy_13,10,10,1.2,0.85,1
+enemy_11,5,5,0.6,0.9,0
+enemy_12,20,20,0.5,0.9,1
+enemy_11,20,10,0.5,0.9,0
+enemy_13,30,20,1.2,0.85,1
+#reward,800,,,,
+,,,Wave 4,,
+boss_wayno,0,2,15,1.05,1
+enemy_7,0,20,0.4,0.9,0
+enemy_12,2,15,0.5,0.9,1
+enemy_8,0,10,0.45,0.9,0
+enemy_6,0.4,20,0.2,0.9,1
+enemy_9,0.3,20,0.35,0.9,0
+#reward,800,,,,
+,,,Wave 5,,
+enemy_12,0,20,0.4,0.9,0
+enemy_12,2,20,0.45,0.9,1
+#reward,800,,,,
+,,,Wave 6,,
+enemy_13,0,30,1.15,0.9,1
+enemy_10,0,10,0.35,0.95,0
+enemy_10,10,25,0.3,0.95,1
+enemy_13,10,40,1.15,0.9,0
+#reward,800,,,,
+,,,Wave 7,,
+enemy_12,0,20,0.65,0.95,0
+enemy_12,10,20,0.6,0.95,1
+#reward,800,,,,
+,,,Wave 8,,
+enemy_12,0,20,0.55,0.95,1
+enemy_13,10,20,1.15,0.9,0
+#reward,800,,,,
+,,,Wave 9,,
+boss_wayno,0,1,1,1.05,0
+enemy_12,2,30,0.55,0.95,1
+enemy_13,20,40,1.1,0.9,0
+#reward,800,,,,
+,,,Wave 10,,

@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 378291cd276c58f4a81a9991da926d78
+timeCreated: 1463318704
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_LVL2
+    100002: CH_Treasure_LVL2
+    100004: Lid_LVL2
+    100006: Shadow
+    100008: Swivel
+    100010: //RootNode
+    100012: Treasure_LVL2
+    400000: Base_LVL2
+    400002: CH_Treasure_LVL2
+    400004: Lid_LVL2
+    400006: Shadow
+    400008: Swivel
+    400010: //RootNode
+    400012: Treasure_LVL2
+    2300000: Base_LVL2
+    2300002: Lid_LVL2
+    2300004: Shadow
+    2300006: Treasure_LVL2
+    3300000: Base_LVL2
+    3300002: Lid_LVL2
+    3300004: Shadow
+    3300006: Treasure_LVL2
+    4300000: Base_LVL2
+    4300002: Shadow
+    4300004: Treasure_LVL2
+    4300006: Lid_LVL2
+    7400000: TWR_Treasure_LVL2_Spawn
+    7400002: TWR_Treasure_LVL2_idle
+    7400004: TWR_Treasure_LVL2_PresentCoin
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Treasure_LVL2_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base_LVL2
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2/Lid_LVL2
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Treasure_LVL2_idle
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base_LVL2
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2/Lid_LVL2
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Treasure_LVL2_PresentCoin
+      takeName: Take 001
+      firstFrame: 56
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base_LVL2
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2
+        weight: 1
+      - path: Swivel/CH_Treasure_LVL2/Treasure_LVL2/Lid_LVL2
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

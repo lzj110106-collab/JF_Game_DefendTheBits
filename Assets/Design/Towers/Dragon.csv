@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+2950,5650,RNG3,Default,Burn;1.5;20,8,0.45,4,1,1.5,range&burn&splash
+3600,4250,RNG4,Default,Burn;2;20,10,0.45,4,2,1.75,range&burn&splash
+4050,5000,RNG4,Default,Burn;2.5;20,12,0.5,4,2,2,range&burn&splash
+4700,5550,RNG6,Default,Burn;3;20,15,0.5,4,2,2.25,range&burn&splash
+5000,6250,RNG6,Default,Burn;3.5;25,17,0.55,4,2,2.25,range&burn&splash

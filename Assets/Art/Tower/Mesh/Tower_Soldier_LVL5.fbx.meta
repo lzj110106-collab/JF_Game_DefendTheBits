@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 8541f006ae49ac74a8d0eae8235d41ec
+timeCreated: 1480597819
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Base
+    100004: Body
+    100006: Buckle_Left
+    100008: Buckle_Right
+    100010: Character
+    100012: Hat
+    100014: Loc_Muzzle
+    100016: Seat
+    100018: shadow
+    100020: Swivel
+    100022: Tank
+    100024: //RootNode
+    100026: Gold
+    100028: Hat1
+    400000: Barrel
+    400002: Base
+    400004: Body
+    400006: Buckle_Left
+    400008: Buckle_Right
+    400010: Character
+    400012: Hat
+    400014: Loc_Muzzle
+    400016: Seat
+    400018: shadow
+    400020: Swivel
+    400022: Tank
+    400024: //RootNode
+    400026: Gold
+    400028: Hat1
+    2300000: Barrel
+    2300002: Base
+    2300004: Body
+    2300006: Buckle_Left
+    2300008: Buckle_Right
+    2300010: Hat
+    2300012: Seat
+    2300014: shadow
+    2300016: Tank
+    2300018: Gold
+    2300020: Hat1
+    3300000: Barrel
+    3300002: Base
+    3300004: Body
+    3300006: Buckle_Left
+    3300008: Buckle_Right
+    3300010: Hat
+    3300012: Seat
+    3300014: shadow
+    3300016: Tank
+    3300018: Gold
+    3300020: Hat1
+    4300000: Base
+    4300002: shadow
+    4300004: Tank
+    4300006: Seat
+    4300008: Body
+    4300010: Hat
+    4300012: Buckle_Left
+    4300014: Buckle_Right
+    4300016: Barrel
+    4300018: Gold
+    4300020: Hat1
+    7400000: TWR_Soldier_L2_Spawn
+    7400002: TWR_Soldier_L2_Idle
+    7400004: TWR_Soldier_L2_Attack
+    7400006: TWR_Soldier_L2_Victory
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Soldier_L2_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Tank
+        weight: 1
+      - path: Swivel/Character/Tank/Seat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat/Hat1
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Soldier_L2_Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Tank
+        weight: 1
+      - path: Swivel/Character/Tank/Seat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat/Hat1
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Soldier_L2_Attack
+      takeName: Take 001
+      firstFrame: 82
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0068259384
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      - time: 0.008291962
+        functionName: PlayClip
+        data: Cannon_Fire
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Tank
+        weight: 1
+      - path: Swivel/Character/Tank/Seat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat/Hat1
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Soldier_L2_Victory
+      takeName: Take 001
+      firstFrame: 112
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Tank
+        weight: 1
+      - path: Swivel/Character/Tank/Seat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Barrel/Loc_Muzzle
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat
+        weight: 1
+      - path: Swivel/Character/Tank/Seat/Body/Hat/Hat1
+        weight: 1
+      - path: Swivel/shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

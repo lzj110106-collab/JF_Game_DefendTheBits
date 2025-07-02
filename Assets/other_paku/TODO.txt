@@ -1,0 +1,79 @@
+============================================
+TODO LIST (in no particular order of importance)
+============================================
+
+- Tower effect locator assignable transform, eg OnHit vs OnFireWeapon having different transforms assigned along with either parenting or world pos spawning
+
+- Tower sub-tower spawning in radius blocks around it, up to a limit (maybe upgradeable?). Used for Scarecrow tower, builds crops around him
+  	- done. still needs some more testing
+
+- Scarecrow tower crops, buildable from the tower itself, then only placeable in surrounding blocks.
+  generate coins over time (per round maybe) that the player must tap to collect. perhaps each round the tower will generate a range of coins from it's various crops, or sometimes none. Crops may turn into coins (empty dirt after)
+	- is this the same as the above? or is this a manual placement of crops?
+
+- Selecting towers for upgrades currently doesn't work correctly (I think clicks on the tower popup button hits are eaten by clicks on the terrain behind it?)
+	- cnr
+
+- Tower Select+Place scroll menu on HUD, need to shrink out meshes as they approach edges
+
+- EnemyWaveController.cs, tracking level progress, not even sure how we handle this or if we even need it, I sort of threw something in but I'm sure it's not correct. I'd thought it might calculate the slowest enemy to spawn's travel time to finish and then adjust on the fly for any slow aura/etc that might effect it.
+
+- Level loading/reloading flow functioning
+
+- Invisible terrain tiles, or a way to set the walkable region to a custom height (for bridges/etc made in art)
+	- we need to switch the levels over from PathNodes to PathNetwork. allows you to turn off parts of the network for bridge building and
+	  also to assign enemy sizes to different aspects of the network
+
+- Enemies don't ground themselves to path height, I think I manually offset them by 0.125 to stop them intersecting the path
+	- the elevator tile is way below ground level and causes them to appear underground during the first path segment. overwriting the height fixes the elevator but will break everything else.
+	  there is a new PathNetwork object that we need to seet up for the levels.
+
+- Enemies that spawn, would be cool to have the little elevator effect I threw in work using the actual enemy position, currently they're snapping to ground and I'm just animating them from a negative height up to 0, can be a little funky
+	- elevator effect wont work if you are spawning enemies faster than the animation. also doesnt work with the above path problems.
+	  need to change it so they spawn off screen or from behind scenery or fall out of the sky or something like that.
+
+- Enemy reaching end of path event, we want to do something with them here other than insta-killing them, so some sort of delay on death and halting of movement, perhaps for a pre-canned anim or some other object doing a pre-canned anim and taking the enemy as a child to move it around
+    - characters already have an OnPathComplete(), can use that for the things you describe. is there a list of enemy types anywhere?
+
+- Water! placeable in leveleditor as a tile type, only water type towers can be placed here (eg Toes), with some sort of cool rippling shader, I made a mockup using world position and scroling noise, not quite there though. 
+
+- World.cs, added another group of pauseable objects, projectiles possibly, was a while ago, just need to make sure they're setup correctly, I copied your format as best I could
+
+- Dynamic path shortcuts, eg a short route that might become unblocked on blocked (maybe you can place walls/obstacles on it) that enemies can navigate if the option is available. Had the idea for a draw bridge/gate.
+	- need to switch pathing over to PathNetwork
+
+- Enemies with behaviours, such as a builder or strcture destroyer enemy that might go down path just to build an bridge-shortcut (unless you kill it in time) to let the rest of the enemies take a shortcut. Could have enemies that disable/slow towers, channelling or cast on the way
+	- is there a list of behaviours we want anywhere?
+
+- Coins being ejected from slain enemies for tap-to-pickup
+	- done
+
+- #NICE TO HAVE# directional vert colour and or ambient occlusion baked into level verts. A series of directional tint values (top/left/right) to give the levels more depth. There's an asset store AO to verts solution we could probably use to achieve that portion.
+
+
+============================================
+CHECK ON THESE THINGS
+============================================
+
+- WeaponProjectileArc.cs
+	+ Line 106, projectiles to follow arcs
+	+
+
+- LevelSelectScreen.cs, Level loading from Resources dir, somewhat implemented this, but you should take a look at this, maybe we want to CSV some of this stuff what are your thoughts?
+	- added a CSV file so we arent reliant on changing filenames to change the order of levels. will need to expand this if we have a world map.
+
+- Interacive (tap) scenery objects (play pfx, animate, move along waypoint), gerry wanted these. Currently I've got some rabbits that move in waypoint-esque motions, and the waterfall streams that are interactable. The waterfall's 'Interact and Spawn PFX' component is woefully put together, possibly needs pooling.
+	- added an InteractObjectPool. currently the tappable coins are using it. need to convert other things over i guess.
+
+- Weapon.cs, towers were modelled not facing down Z (eugh), I've begun correcting this with new towers I throw in, just thought I'd let you know that I've fixed that so you don't have to counter rotate them anymore (I removed that part from what's currently in, just in case you expand on them in some way)
+
+- Added an AttackInterrupt trigger to tower animators for when their target disappears, not sure if this is ideal or if they should immediately switch target and continue their current attack without starting anew (was resulting in the towers jolting back and forth pre-empting an attack as their targets were killed before they could launch the projectile)
+
+- EnemyCharacter.cs, added a Knockback value, I don't quite know how we handle this in terms of the enemies resuming their pathing, is it fine to jolt them off the waypoint path slightly? Also don't want to create a scenario where you can effectively push enemies back if you lay enough hits on them, would be cool to work out a way to do this purely cosmetically
+
+
+
+
+
+
+------------------------------------------------------------

@@ -1,0 +1,49 @@
+Easy_0,,,,
+Enemy Type,Initial Spawn Delay,Enemy Count,Enemy Spawn Interval, Speed Multiplier
+enemy_1,0,10,0.8,
+#reward,200,,,
+,,,Wave 1,
+enemy_2,1,5,0.85,
+enemy_8_FTUE,1,1,0,
+#reward,500,,,
+,,,Wave 2,
+enemy_1,0,0,0,
+enemy_1,1,5,0.85,
+enemy_2,1,5,0.85,
+#reward,150,,,
+,,,Wave 3,
+enemy_1,0,0,0,
+enemy_1,1,10,0.7,
+enemy_2,1,10,0.6,
+enemy_1,0.5,5,0.5,
+#reward,150,,,
+,,,Wave 4,
+enemy_2,0,0,0,
+enemy_1,1,20,0.45,0.85
+enemy_1,0.3,10,0.3,0.85
+enemy_2,0.7,5,0.4,0.85
+#reward,150,,,
+,,,Wave 5,
+enemy_3,0,0,0,
+enemy_3,1,5,0.85,0.85
+#reward,150,,,
+,,,Wave 6,
+enemy_2,0,0,0,
+enemy_1,1,20,0.3,0.85
+enemy_3,1,7,0.55,0.85
+#reward,150,,,
+,,,Wave 7,
+enemy_2,0,0,0,
+enemy_4,1,5,0.9,0.85
+#reward,150,,,
+,,,Wave 8,
+enemy_3,0,0,0,
+enemy_2,1,5,0.3,0.85
+enemy_3,1,10,0.5,0.85
+enemy_4,1.5,5,0.75,0.85
+#reward,200,,,
+,,,Wave 9,
+enemy_2,0,0,0,
+enemy_5,1,7,0.85,0.85
+#reward,200,,,
+,,,Wave 10,

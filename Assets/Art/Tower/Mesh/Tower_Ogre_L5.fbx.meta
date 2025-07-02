@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 3b67e75ae2ec4f149b178fd7a49eaaef
+timeCreated: 1462072136
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: CH_Ogre
+    100004: Club
+    100006: ClubHead
+    100008: Loc_Muzzle
+    100010: NinjaStar
+    100012: Ogre
+    100014: PRJ_Ninja
+    100016: Shadow
+    100018: Swivel
+    100020: Tower_Ogre
+    100022: //RootNode
+    100024: Body
+    100026: Character
+    100028: Weapon
+    100030: WeaponHandle
+    400000: Base
+    400002: CH_Ogre
+    400004: Club
+    400006: ClubHead
+    400008: Loc_Muzzle
+    400010: NinjaStar
+    400012: Ogre
+    400014: PRJ_Ninja
+    400016: Shadow
+    400018: Swivel
+    400020: //RootNode
+    400022: Tower_Ogre
+    400024: Body
+    400026: Character
+    400028: Weapon
+    400030: WeaponHandle
+    2300000: Base
+    2300002: Club
+    2300004: ClubHead
+    2300006: NinjaStar
+    2300008: Ogre
+    2300010: Shadow
+    2300012: Body
+    2300014: Weapon
+    2300016: WeaponHandle
+    3300000: Base
+    3300002: Club
+    3300004: ClubHead
+    3300006: NinjaStar
+    3300008: Ogre
+    3300010: Shadow
+    3300012: Body
+    3300014: Weapon
+    3300016: WeaponHandle
+    4300000: Base
+    4300002: Shadow
+    4300004: Ogre
+    4300006: Club
+    4300008: ClubHead
+    4300010: NinjaStar
+    4300012: Body
+    4300014: WeaponHandle
+    4300016: Weapon
+    7400000: TWR_Ogre_L2_Spawn
+    7400002: TWR_Ogre_L2_Idle
+    7400004: TWR_Ogre_L2_Attack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Ogre_L2_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.50684935
+        functionName: TriggerShakeID
+        data: OnTowerSpawnImpact
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41098902
+        functionName: TriggerShakeID
+        data: OnTowerSpawnStart
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      - path: Swivel/WeaponHandle
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon/Loc_Muzzle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Ogre_L2_Idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      - path: Swivel/WeaponHandle
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon/Loc_Muzzle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Ogre_L2_Attack
+      takeName: Take 001
+      firstFrame: 92
+      lastFrame: 116
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.4066986
+        functionName: PlayEffect
+        data: PFX_Ogre_AttackSlash
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.45821416
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/Character
+        weight: 1
+      - path: Swivel/Character/Body
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      - path: Swivel/WeaponHandle
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon
+        weight: 1
+      - path: Swivel/WeaponHandle/Weapon/Loc_Muzzle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

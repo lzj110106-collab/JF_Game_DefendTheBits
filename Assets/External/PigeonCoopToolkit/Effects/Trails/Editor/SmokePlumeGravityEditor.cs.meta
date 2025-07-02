@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7837efda401839e4c9feb9c7805b62c6
+labels:
+- BetterTrails
+- TrailRenderer
+- Smoke
+- Trail
+- Effects
+- skidmarks
+timeCreated: 1453194394
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

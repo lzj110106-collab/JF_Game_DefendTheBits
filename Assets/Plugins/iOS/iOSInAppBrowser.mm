@@ -1,0 +1,191 @@
+//
+//  iOSInAppBrowser.m
+//
+//  Created by Piotr Zmudzinski on 04/03/16.
+//  contact: ptr.zmudzinski@gmail.com
+//
+
+#import <Foundation/Foundation.h>
+#import "UnityAppController.h"
+#import "InAppBrowserViewController.h"
+
+struct DisplayOptions {
+    char *pageTitle;
+    char *backButtonText;
+    char *barBackgroundColor;
+    char *textColor;
+    bool displayURLAsPageTitle;
+    bool hidesTopBar;
+    bool pinchAndZoomEnabled;
+};
+
+@interface UIColor(HexString)
+
++ (CGFloat) colorComponentFrom:(NSString *) string start:(NSUInteger) start length:(NSUInteger) length;
+
+@end
+
+
+@implementation UIColor(HexString)
+
++ (UIColor *) colorWithHexChar: (char *) hexChar {
+    return [UIColor colorWithHexString:[NSString stringWithUTF8String:hexChar]];
+}
+
++ (UIColor *) colorWithHexString: (NSString *) hexString {
+    NSString *colorString = [[hexString stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
+    CGFloat alpha, red, blue, green;
+    switch ([colorString length]) {
+        case 3: // #RGB
+            alpha = 1.0f;
+            red   = [self colorComponentFrom: colorString start: 0 length: 1];
+            green = [self colorComponentFrom: colorString start: 1 length: 1];
+            blue  = [self colorComponentFrom: colorString start: 2 length: 1];
+            break;
+        case 4: // #ARGB
+            alpha = [self colorComponentFrom: colorString start: 0 length: 1];
+            red   = [self colorComponentFrom: colorString start: 1 length: 1];
+            green = [self colorComponentFrom: colorString start: 2 length: 1];
+            blue  = [self colorComponentFrom: colorString start: 3 length: 1];
+            break;
+        case 6: // #RRGGBB
+            alpha = 1.0f;
+            red   = [self colorComponentFrom: colorString start: 0 length: 2];
+            green = [self colorComponentFrom: colorString start: 2 length: 2];
+            blue  = [self colorComponentFrom: colorString start: 4 length: 2];
+            break;
+        case 8: // #AARRGGBB
+            alpha = [self colorComponentFrom: colorString start: 0 length: 2];
+            red   = [self colorComponentFrom: colorString start: 2 length: 2];
+            green = [self colorComponentFrom: colorString start: 4 length: 2];
+            blue  = [self colorComponentFrom: colorString start: 6 length: 2];
+            break;
+        default:
+            return nil;
+    }
+    return [UIColor colorWithRed: red green: green blue: blue alpha: alpha];
+}
+
++ (CGFloat) colorComponentFrom: (NSString *) string start: (NSUInteger) start length: (NSUInteger) length {
+    NSString *substring = [string substringWithRange: NSMakeRange(start, length)];
+    NSString *fullHex = length == 2 ? substring : [NSString stringWithFormat: @"%@%@", substring, substring];
+    unsigned hexComponent;
+    [[NSScanner scannerWithString: fullHex] scanHexInt: &hexComponent];
+    return hexComponent / 255.0;
+}
+
+@end
+
+
+@interface InAppBrowserConfig(DisplayOptionsStruct)
+
++ (InAppBrowserConfig*)fromDisplayOptions:(struct DisplayOptions)options;
+
+@end
+
+@implementation InAppBrowserConfig(DisplayOptionsStruct)
+
++ (InAppBrowserConfig*)fromDisplayOptions:(struct DisplayOptions)options {
+    InAppBrowserConfig *config = [InAppBrowserConfig defaultDisplayOptions];
+    
+    if (options.pageTitle != NULL) {
+        config.pageTitle = [NSString stringWithUTF8String:options.pageTitle];
+    }
+    
+    if (options.backButtonText != NULL) {
+        config.backButtonText = [NSString stringWithUTF8String:options.backButtonText];
+    }
+    
+    if (options.barBackgroundColor != NULL) {
+        config.barBackgroundColor = [UIColor colorWithHexChar:options.barBackgroundColor];
+    }
+    
+    if (options.textColor != NULL) {
+        config.textColor = [UIColor colorWithHexChar:options.textColor];
+    }
+    
+    config.displayURLAsPageTitle = options.displayURLAsPageTitle;
+    config.hidesTopBar = options.hidesTopBar;
+    config.pinchAndZoomEnabled = options.pinchAndZoomEnabled;
+    
+    return config;
+}
+
+@end
+
+InAppBrowserViewController *GetInAppBrowserViewController() {
+    UnityAppController *unityAppController = GetAppController();
+    if ([unityAppController.rootViewController.presentedViewController isKindOfClass:[UINavigationController class]]) {
+        
+        UINavigationController *presentedNavVC = (UINavigationController *)unityAppController.rootViewController.presentedViewController;
+        
+        if ([presentedNavVC.viewControllers[0] isKindOfClass:[InAppBrowserViewController class]]){
+            return (InAppBrowserViewController *)presentedNavVC.viewControllers[0];
+        }
+    }
+    return nil;
+}
+
+
+extern "C" {
+    
+    void _ShowURLWithDisplayOptions(NSString *urlAsString, DisplayOptions displayOptions) {
+        UnityAppController *unityAppController = GetAppController();
+        InAppBrowserViewController *vc = [InAppBrowserViewController new];
+        vc.URL = urlAsString;
+        vc.config = [InAppBrowserConfig fromDisplayOptions: displayOptions];
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+        [unityAppController.rootViewController presentViewController:navigationController animated:true completion:nil];
+    }
+    
+    void _ShowHTMLWithDisplayOptions(NSString *HTMLAsString, DisplayOptions displayOptions) {
+        UnityAppController *unityAppController = GetAppController();
+        InAppBrowserViewController *vc = [InAppBrowserViewController new];
+        vc.HTML = HTMLAsString;
+        vc.config = [InAppBrowserConfig fromDisplayOptions: displayOptions];
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+        [unityAppController.rootViewController presentViewController:navigationController animated:true completion:nil];
+    }
+    
+    void _OpenInAppBrowser(char *URL, struct DisplayOptions displayOptions) {
+        NSString *urlAsString = [NSString stringWithUTF8String:URL];
+        _ShowURLWithDisplayOptions(urlAsString, displayOptions);
+    }
+    
+    void _LoadHTML(char *HTML, struct DisplayOptions displayOptions) {
+        NSString *HTMLAsString = [NSString stringWithUTF8String: HTML];
+        _ShowHTMLWithDisplayOptions(HTMLAsString, displayOptions);
+    }
+    
+    void _CloseInAppBrowser() {
+        UnityAppController *unityAppController = GetAppController();
+        if ([unityAppController.rootViewController.presentedViewController isKindOfClass:[UINavigationController class]]) {
+            
+            UINavigationController *presentedNavVC = (UINavigationController *)unityAppController.rootViewController.presentedViewController;
+            
+            if ([presentedNavVC.viewControllers[0] isKindOfClass:[InAppBrowserViewController class]]){
+                [unityAppController.rootViewController dismissViewControllerAnimated:true completion:nil];
+            }
+        }
+    }
+    
+    void _ClearCache() {
+        [[NSURLCache sharedURLCache] removeAllCachedResponses];
+        NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+        NSArray<NSHTTPCookie *> *cookies = cookieStorage.cookies;
+        for (NSHTTPCookie *cookie in cookies) {
+            [cookieStorage deleteCookie:cookie];
+        }
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
+    void _SendJSMessage(char *message) {
+        NSString *messageString = [NSString stringWithUTF8String:message];
+        InAppBrowserViewController *vc = GetInAppBrowserViewController();
+        if (vc != nil) {
+            [vc sendJSMessage:messageString];
+        }
+    }
+    
+}
+

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: dd4519b355833d54eb27821d5fa6b4c7
+timeCreated: 1449999808
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Ears
+    100006: Eyes
+    100008: Foot_Front_L
+    100010: Foot_Front_R
+    100012: Foot_Rear_L
+    100014: Foot_Rear_R
+    100016: Tail
+    100018: Torso
+    400000: Body
+    400002: //RootNode
+    400004: Ears
+    400006: Eyes
+    400008: Foot_Front_L
+    400010: Foot_Front_R
+    400012: Foot_Rear_L
+    400014: Foot_Rear_R
+    400016: Tail
+    400018: Torso
+    2300000: Ears
+    2300002: Eyes
+    2300004: Foot_Front_L
+    2300006: Foot_Front_R
+    2300008: Foot_Rear_L
+    2300010: Foot_Rear_R
+    2300012: Tail
+    2300014: Torso
+    3300000: Ears
+    3300002: Eyes
+    3300004: Foot_Front_L
+    3300006: Foot_Front_R
+    3300008: Foot_Rear_L
+    3300010: Foot_Rear_R
+    3300012: Tail
+    3300014: Torso
+    4300000: Torso
+    4300002: Eyes
+    4300004: Ears
+    4300006: Tail
+    4300008: Foot_Front_R
+    4300010: Foot_Front_L
+    4300012: Foot_Rear_R
+    4300014: Foot_Rear_L
+    7400000: CRT_Rabbit_Idle
+    7400002: CRT_Rabbit_Leap
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CRT_Rabbit_Idle
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Foot_Front_L
+        weight: 1
+      - path: Body/Foot_Front_R
+        weight: 1
+      - path: Body/Foot_Rear_L
+        weight: 1
+      - path: Body/Foot_Rear_R
+        weight: 1
+      - path: Body/Torso
+        weight: 1
+      - path: Body/Torso/Ears
+        weight: 1
+      - path: Body/Torso/Eyes
+        weight: 1
+      - path: Body/Torso/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CRT_Rabbit_Leap
+      takeName: Take 001
+      firstFrame: 53
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .919390023
+        functionName: OnFinished
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Foot_Front_L
+        weight: 1
+      - path: Body/Foot_Front_R
+        weight: 1
+      - path: Body/Foot_Rear_L
+        weight: 1
+      - path: Body/Foot_Rear_R
+        weight: 1
+      - path: Body/Torso
+        weight: 1
+      - path: Body/Torso/Ears
+        weight: 1
+      - path: Body/Torso/Eyes
+        weight: 1
+      - path: Body/Torso/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

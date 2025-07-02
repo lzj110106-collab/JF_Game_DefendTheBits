@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: dcfcd988f24064d41b7e6e223672237d
+timeCreated: 1493283879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arrow
+    100002: Arrow_02
+    100004: Arrow_03
+    100006: Base4
+    100008: Body
+    100010: Bow
+    100012: BowRoot
+    100014: BowString
+    100016: Character
+    100018: Hat
+    100020: Loc_Muzzle
+    100022: Shadow
+    100024: StringBot
+    100026: StringTop
+    100028: Swivel
+    100030: //RootNode
+    100032: Base7
+    100034: Bow1
+    400000: Arrow
+    400002: Arrow_02
+    400004: Arrow_03
+    400006: Base4
+    400008: Body
+    400010: Bow
+    400012: BowRoot
+    400014: BowString
+    400016: Character
+    400018: Hat
+    400020: Loc_Muzzle
+    400022: Shadow
+    400024: StringBot
+    400026: StringTop
+    400028: Swivel
+    400030: //RootNode
+    400032: Base7
+    400034: Bow1
+    2300000: Arrow
+    2300002: Arrow_02
+    2300004: Arrow_03
+    2300006: Base4
+    2300008: Body
+    2300010: Bow
+    2300012: Hat
+    2300014: Shadow
+    2300016: StringBot
+    2300018: StringTop
+    2300020: Base7
+    2300022: Bow1
+    3300000: Arrow
+    3300002: Arrow_02
+    3300004: Arrow_03
+    3300006: Base4
+    3300008: Body
+    3300010: Bow
+    3300012: Hat
+    3300014: Shadow
+    3300016: StringBot
+    3300018: StringTop
+    3300020: Base7
+    3300022: Bow1
+    4300000: Base4
+    4300002: Shadow
+    4300004: Body
+    4300006: Hat
+    4300008: StringBot
+    4300010: StringTop
+    4300012: Bow
+    4300014: Arrow
+    4300016: Arrow_02
+    4300018: Arrow_03
+    4300020: Base7
+    4300022: Bow1
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: c6929df1313900b4f9227b7ed49628d9
+timeCreated: 1461851445
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ammo
+    100002: AmmoCrate
+    100004: Base
+    100006: CH_Pug_Damage
+    100008: Dynamite01
+    100010: Dynamite02
+    100012: Grenade
+    100014: Pug_Damage
+    100016: Shadow
+    100018: Swivel
+    100020: Tongue
+    100022: //RootNode
+    400000: Ammo
+    400002: AmmoCrate
+    400004: Base
+    400006: CH_Pug_Damage
+    400008: Dynamite01
+    400010: Dynamite02
+    400012: Grenade
+    400014: Pug_Damage
+    400016: Shadow
+    400018: Swivel
+    400020: Tongue
+    400022: //RootNode
+    2300000: Ammo
+    2300002: AmmoCrate
+    2300004: Base
+    2300006: Dynamite01
+    2300008: Dynamite02
+    2300010: Grenade
+    2300012: Pug_Damage
+    2300014: Shadow
+    2300016: Tongue
+    3300000: Ammo
+    3300002: AmmoCrate
+    3300004: Base
+    3300006: Dynamite01
+    3300008: Dynamite02
+    3300010: Grenade
+    3300012: Pug_Damage
+    3300014: Shadow
+    3300016: Tongue
+    4300000: Base
+    4300002: Shadow
+    4300004: Pug_Damage
+    4300006: Tongue
+    4300008: AmmoCrate
+    4300010: Ammo
+    4300012: Dynamite01
+    4300014: Dynamite02
+    4300016: Grenade
+    7400000: TWR_Pug_Damage_Spawn
+    7400002: TWR_Pug_Damage_Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Pug_Damage_Spawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Pug_Damage
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Ammo
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Dynamite01
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Dynamite02
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Grenade
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/Pug_Damage
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/Pug_Damage/Tongue
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Pug_Damage_Idle
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Pug_Damage
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Ammo
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Dynamite01
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Dynamite02
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/AmmoCrate/Grenade
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/Pug_Damage
+        weight: 1
+      - path: Swivel/CH_Pug_Damage/Pug_Damage/Tongue
+        weight: 1
+      - path: Swivel/Shadow
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

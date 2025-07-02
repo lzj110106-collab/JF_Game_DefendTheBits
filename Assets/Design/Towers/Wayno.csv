@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius, UI icons
+1150,1750,LASER3,Default,,1,0.9,1,0,0,range&return
+1500,1250,LASER3,Default,,1,0.95,1,0,0,range&return
+1750,1500,LASER3,Default,,2,1.05,1,0,0,range&return
+2250,1800,LASER4,Default,,2,1.1,1,0,0,range&return
+2500,2000,LASER4,Default,,2,1.15,2,0,0,range&return&multi

@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 726cc769270bf734db8745b3820fb07b
+timeCreated: 1492758650
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blade
+    100002: Body
+    100004: Buckle_Left
+    100006: Buckle_Right
+    100008: //RootNode
+    100010: Eye
+    100012: Hat
+    100014: Mouth
+    100016: Pupil
+    100018: Shadow
+    400000: blade
+    400002: Body
+    400004: Buckle_Left
+    400006: Buckle_Right
+    400008: //RootNode
+    400010: Eye
+    400012: Hat
+    400014: Mouth
+    400016: Pupil
+    400018: Shadow
+    2300000: blade
+    2300002: Body
+    2300004: Buckle_Left
+    2300006: Buckle_Right
+    2300008: Eye
+    2300010: Hat
+    2300012: Mouth
+    2300014: Pupil
+    2300016: Shadow
+    3300000: blade
+    3300002: Body
+    3300004: Buckle_Left
+    3300006: Buckle_Right
+    3300008: Eye
+    3300010: Hat
+    3300012: Mouth
+    3300014: Pupil
+    3300016: Shadow
+    4300000: Shadow
+    4300002: Body
+    4300004: Hat
+    4300006: blade
+    4300008: Buckle_Right
+    4300010: Buckle_Left
+    4300012: Eye
+    4300014: Pupil
+    4300016: Mouth
+    7400000: EN_BadBit_Walk_Flying
+    7400002: EN_BadBit_Death_Flying
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EN_BadBit_Walk_Flying
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Eye
+        weight: 1
+      - path: Body/Eye/Pupil
+        weight: 1
+      - path: Body/Hat
+        weight: 1
+      - path: Body/Hat/blade
+        weight: 1
+      - path: Body/Hat/Buckle_Left
+        weight: 1
+      - path: Body/Hat/Buckle_Right
+        weight: 1
+      - path: Body/Mouth
+        weight: 1
+      - path: Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EN_BadBit_Death_Flying
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: OnDeathComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/Eye
+        weight: 1
+      - path: Body/Eye/Pupil
+        weight: 1
+      - path: Body/Hat
+        weight: 1
+      - path: Body/Hat/blade
+        weight: 1
+      - path: Body/Hat/Buckle_Left
+        weight: 1
+      - path: Body/Hat/Buckle_Right
+        weight: 1
+      - path: Body/Mouth
+        weight: 1
+      - path: Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 4c2720f86a815c64eae7e8914284aa35
+timeCreated: 1493688862
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Bee
+    100004: CH_Bee
+    100006: Crown
+    100008: Jaw
+    100010: Loc_Muzzle
+    100012: Shadow
+    100014: Stinger
+    100016: Swivel
+    100018: //RootNode
+    100020: Wing_L
+    100022: Wing_L1
+    100024: Wing_R
+    100026: Wing_R1
+    100028: Collar
+    400000: Base
+    400002: Bee
+    400004: CH_Bee
+    400006: Crown
+    400008: Jaw
+    400010: Loc_Muzzle
+    400012: Shadow
+    400014: Stinger
+    400016: Swivel
+    400018: //RootNode
+    400020: Wing_L
+    400022: Wing_L1
+    400024: Wing_R
+    400026: Wing_R1
+    400028: Collar
+    2300000: Base
+    2300002: Bee
+    2300004: Crown
+    2300006: Jaw
+    2300008: Shadow
+    2300010: Stinger
+    2300012: Wing_L
+    2300014: Wing_L1
+    2300016: Wing_R
+    2300018: Wing_R1
+    2300020: Collar
+    3300000: Base
+    3300002: Bee
+    3300004: Crown
+    3300006: Jaw
+    3300008: Shadow
+    3300010: Stinger
+    3300012: Wing_L
+    3300014: Wing_L1
+    3300016: Wing_R
+    3300018: Wing_R1
+    3300020: Collar
+    4300000: Base
+    4300002: Shadow
+    4300004: Bee
+    4300006: Crown
+    4300008: Stinger
+    4300010: Wing_R
+    4300012: Wing_R1
+    4300014: Wing_L
+    4300016: Wing_L1
+    4300018: Jaw
+    4300020: Collar
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5c20928d4ad68b14a8e54b517c8e0d02,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

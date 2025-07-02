@@ -1,0 +1,50 @@
+EndlessWaves_Easy_Easy,,,,
+Enemy Type,Initial Spawn Delay,Enemy Count,Enemy Spawn Interval, Speed Multiplier
+enemy_13,0,3,1.6,0.9
+#reward,800,,,
+,,,Wave 1,
+enemy_13,0,6,1.4,0.9
+#reward,800,,,
+,,,Wave 2,
+enemy_13,0,10,1.3,0.9
+#reward,800,,,
+,,,Wave 3,
+boss_wayno,0,1,15,2
+enemy_13,10,10,1.3,0.9
+enemy_11,3,5,0.6,1.2
+enemy_7,1,20,0.4,1.2
+enemy_11,3,10,0.5,1.2
+enemy_7,1,40,0.35,1.2
+#reward,800,,,
+,,,Wave 4,
+boss_wayno,0,2,15,2
+enemy_7,0,20,0.4,1.2
+enemy_12,2,15,1,1.2
+enemy_8,0,10,0.45,1.2
+enemy_6,0.4,20,0.2,1.2
+enemy_9,0.3,20,0.35,1.2
+#reward,800,,,
+,,,Wave 5,
+enemy_12,2,10,0.7,1.2
+enemy_12,2,15,0.65,1.2
+#reward,800,,,
+,,,Wave 6,
+enemy_7,0,30,0.4,1.25
+enemy_10,5,10,0.35,1.25
+enemy_10,0,15,0.3,1.25
+enemy_13,3,15,1.3,1
+#reward,800,,,
+,,,Wave 7,
+enemy_12,2,15,0.65,1.25
+enemy_12,2,15,0.6,1.25
+#reward,800,,,
+,,,Wave 8,
+enemy_12,2,20,0.55,1.25
+enemy_13,1,10,1.2,1.05
+#reward,800,,,
+,,,Wave 9,
+boss_wayno,2,1,1,2
+enemy_12,2,15,0.55,1.25
+enemy_13,0,20,1.2,1.05
+#reward,800,,,
+,,,Wave 10,

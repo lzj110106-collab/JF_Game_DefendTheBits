@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CharacterSheen_MAT
+  m_Shader: {fileID: 4800000, guid: 9fb1377cd0523db4f8945b60ec0be9a9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e198adb51636b064ea6b52d40ef9766a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientLight
+      second: 0.25
+    - first:
+        name: _RimStrength
+      second: 0.29
+    - first:
+        name: _RimTightness
+      second: 2.25
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.24699998, g: 0.1962, b: 0.11806598, a: 0.841}
+    - first:
+        name: _RimColour
+      second: {r: 0.7647059, g: 0.9353588, b: 1, a: 1}

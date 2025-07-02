@@ -1,0 +1,58 @@
+AllEnemies,,,
+Enemy Type,Initial Spawn Delay,Enemy Count,Enemy Spawn Interval
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,
+TinyBit,0,4,0.5
+MrBit,0,4,0.5
+TallBit,0,4,0.5
+SneakyBit,0,4,0.5
+BigBit,0,4,0.5
+#reward, 50
+,,,

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UICamera
+  - Boom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UIScene
+  - Terrain
+  - UI3D
+  - Turntable
+  - UI3DIcon
+  - ShareUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SceneBG
+    uniqueID: 2135326981
+    locked: 0
+  - name: Scene
+    uniqueID: 3480046645
+    locked: 0
+  - name: SceneFG
+    uniqueID: 3738505849
+    locked: 0
+  - name: UIBG
+    uniqueID: 3054680829
+    locked: 0
+  - name: UI
+    uniqueID: 2922639515
+    locked: 0
+  - name: UI3D
+    uniqueID: 3956153825
+    locked: 0
+  - name: UIFG
+    uniqueID: 615621669
+    locked: 0

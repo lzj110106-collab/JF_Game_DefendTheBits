@@ -1,0 +1,61 @@
+TowerName,Upgrade Name,Upgrade Discription, Additional UI Icons,Cash,Trinket ID, Trinket Count, Status Effect Modifiers, Extra Targetting, Bonus Damage,Bonus Attacks Per Second,Bonus Splash Damage, Bonus Splash Radius, Bonus Targets, Cost Multiplier, Sell Multiplier,Extra Gold Reward, Double Egg Spawn Chance
+archer,upgrade_archer_title_1,upgrade_archer_desc_1,bargain,25,,,,,0,0,0,0,0,0.95,1,0,0
+archer,upgrade_archer_title_2,upgrade_archer_desc_2,pennypincher,50,,,,,0,0,0,0,0,1,1.5,0,0
+archer,upgrade_archer_title_3,upgrade_archer_desc_3,energyboost,75,,,,,0,0.15,0,0,0,1,1,0,0
+soldier,upgrade_soldier_title_1 ,ugprade_soldier_desc_1 ,bargain,25,,,,,0,0,0,0,0,0.95,1,0,0
+soldier,upgrade_soldier_title_2,upgrade_soldier_desc_2,biggerexplosions,50,,,,,0,0,1,0.5,0,1,1,0,0
+soldier,upgrade_soldier_title_3,upgrade_soldier_desc_3,twobirds,75,,,,,0,0,0,0,1,1,1,0,0
+dwarf,upgrade_dwarf_title_1,ugprade_dwarf_desc_1,bargain,25,,,,,0,0,0,0,0,0.95,1,0,0
+dwarf,upgrade_dwarf_title_2,ugprade_dwarf_desc_2,pennypincher,50,,,,,0,0,0,0,0,1,1.5,0,0
+dwarf,upgrade_dwarf_title_3,ugprade_dwarf_desc_3,swole,75,,,,,2,0,0,0,0,1,1,0,0
+frumpy,upgrade_frumpy_title_1,upgrade_frumpy_desc_1,bargain,25,,,,,0,0,0,0,0,0.95,1,0,0
+frumpy,upgrade_frumpy_title_2,upgrade_frumpy_desc_2,pennypincher,50,,,,,0,0,0,0,0,1,1.5,0,0
+frumpy,upgrade_frumpy_title_3,upgrade_frumpy_desc_3,stickier,75,,,Slow;.2;0,,0,0,0,0,0,1,1,0,0
+ninja,upgrade_ninja_title_1,ugprade_ninja_desc_1,bargain,60,,,,,0,0,0,0,0,0.95,1,0,0
+ninja,upgrade_ninja_title_2,ugprade_ninja_desc_2,pennypincher,80,,,,,0,0,0,0,0,1,1.5,0,0
+ninja,upgrade_ninja_title_3,ugprade_ninja_desc_3,energyboost,200,,,,,0,0.15,0,0,0,1,1,0,0
+piggy,upgrade_piggy_title_1,ugprade_piggy_desc_1,bargain,35,,,,,0,0,0,0,0,0.95,1,0,0
+piggy,upgrade_piggy_title_2,ugprade_piggy_desc_2,pennypincher,50,,,,,0,0,0,0,0,1,1.5,0,0
+piggy,upgrade_piggy_title_3,ugprade_piggy_desc_3,stunner,85,,,Stun;1;.75,,0,0,0,0,0,1,1,0,0
+polar,upgrade_polar_title_1,ugprade_polar_desc_1,bargain,35,,,,,0,0,0,0,0,0.95,1,0,0
+polar,upgrade_polar_title_2,ugprade_polar_desc_2,twobirds,50,,,,,0,0,0,0,1,1,1,0,0
+polar,upgrade_polar_title_3,ugprade_polar_desc_3,deepfreeze,85,,,Freeze;1;.75,,0,0,0,0,0,1,1,0,0
+tennis,upgrade_tennis_title_1,ugprade_tennis_desc_1,bargain,60,,,,,0,0,0,0,0,0.95,1,0,0
+tennis,upgrade_tennis_title_2,ugprade_tennis_desc_2,energyboost,90,,,,,0,0.15,0,0,0,1,1,0,0
+tennis,upgrade_tennis_title_3,ugprade_tennis_desc_3,twobirds,200,,,,,0,0,0,0,1,1,1,0,0
+bee,upgrade_bee_title_1,ugprade_bee_desc_1,bargain,35,,,,,0,0,0,0,0,0.95,1,0,0
+bee,upgrade_bee_title_2,ugprade_bee_desc_2,shatter,50,,,,freeze,0,0,0,0,0,1,1,0,0
+bee,upgrade_bee_title_3,ugprade_bee_desc_3,energyboost,85,,,,,0,0.15,0,0,0,1,1,0,0
+flame,upgrade_flame_title_1,ugprade_flame_desc_1,bargain,25,,,,,0,0,0,0,0,0.95,1,0,0
+flame,upgrade_flame_title_2,ugprade_flame_desc_2,swole,50,,,,,1,0,0,0,0,1,1,0,0
+flame,upgrade_flame_title_3,ugprade_flame_desc_3,slowburn,75,,,Burn;0.5;3,,0,0,0,0,0,1,1,0,0
+wayno,upgrade_wayno_title_1,ugprade_wayno_desc_1,bargain,,trinket_Wayno,150,,,0,0,0,0,0,0.95,1,0,0
+wayno,upgrade_wayno_title_2,ugprade_wayno_desc_2,swole,,trinket_Wayno,300,,,1,0,0,0,0,1,1,0,0
+wayno,upgrade_wayno_title_3,ugprade_wayno_desc_3,energyboost,, trinket_Wayno,500,,,0,0.15,0,0,0,1,1,0,0
+pult,upgrade_pult_title_1,ugprade_pult_desc_1,bargain,,trinket_Pult,100,,,0,0,0,0,0,0.95,1,0,0
+pult,upgrade_pult_title_2,ugprade_pult_desc_2,biggerexplosions,,trinket_Pult,200,,,0,0,2,1,0,1,1,0,0
+pult,upgrade_pult_title_3,ugprade_pult_desc_3,swole,, trinket_Pult,300,,,1,0,0,0,0,1,1,0,0
+dayne,upgrade_dayne_title_1,ugprade_dayne_desc_1,goldmine,60,,,,,0,0,0,0,0,1,1,50,0
+dayne,upgrade_dayne_title_2,ugprade_dayne_desc_2,pennypincher,90,,,,,0,0,0,0,0,1,1.5,0,0
+dayne,upgrade_dayne_title_3,ugprade_dayne_desc_3,luckyduck,180,,,,,0,0,0,0,0,1,1,0,0.25
+ogre,upgrade_ogre_title_1,ugprade_ogre_desc_1,swole,,trinket_Ogre,150,,,2,0,0,0,0,1,1,0,0
+ogre,upgrade_ogre_title_2,ugprade_ogre_desc_2,biggerexplosions,,trinket_Ogre,300,,,0,0,2,1,0,1,1,0,0
+ogre,upgrade_ogre_title_3,ugprade_ogre_desc_3,stunner,, trinket_Ogre,500,Stun;1;1,,0,0,0,0,0,1,1,0,0
+ice,upgrade_ice_title_1,ugprade_ice_desc_1,bargain,,trinket_Ice,150,,,0,0,0,0,0,0.95,1,0,0
+ice,upgrade_ice_title_2,ugprade_ice_desc_2,twobirds,,trinket_Ice,300,,,0,0,0,0,1,1,1,0,0
+ice,upgrade_ice_title_3,ugprade_ice_desc_3,swole,, trinket_Ice,500,,,1,0,0,0,0,1,1,0,0
+samurai,upgrade_samurai_title_1,ugprade_samurai_desc_1,bargain,,trinket_Samurai,100,,,0,0,0,0,0,0.95,1,0,0
+samurai,upgrade_samurai_title_2,ugprade_samurai_desc_2,shatter,,trinket_Samurai,200,,freeze;,0,0,0,0,0,1,1,0,0
+samurai,upgrade_samurai_title_3,ugprade_samurai_desc_3,swole,, trinket_Samurai,300,,,1,0,0,0,0,1,1,0,0
+penelope,upgrade_penelope_title_1,ugprade_penelope_desc_1,bargain,60,,,,,0,0,0,0,0,0.95,1,0,0
+penelope,upgrade_penelope_title_2,ugprade_penelope_desc_2,stunner,80,,,Stun;1;1,,0,0,0,0,0,1,1,0,0
+penelope,upgrade_penelope_title_3,ugprade_penelope_desc_3,biggerexplosions,180,,,,,0,0,2,1,0,1,1,0,0
+goo,upgrade_goo_title_1,ugprade_goo_desc_1,bargain,,trinket_Goo,30,,,0,0,0,0,0,0.95,1,0,0
+goo,upgrade_goo_title_2,ugprade_goo_desc_2,stickier,,trinket_Goo,100,Slow;0.5;0,,0,0,0,0,0,1,1,0,0
+goo,upgrade_goo_title_3,ugprade_goo_desc_3,biggerexplosions,, trinket_Goo,200,,,0,0,2,1,0,1,1,0,0
+toes,upgrade_toes_title_1,ugprade_toes_desc_1,bargain,60,,,,,0,0,0,0,0,0.95,1,0,0
+toes,upgrade_toes_title_2,ugprade_toes_desc_2,energyboost,80,,,,,0,2,0,0,0,1,1,0,0
+toes,upgrade_toes_title_3,ugprade_toes_desc_3,twobirds,180,,,,,0,0,0,0,1,1,1,0,0
+dragon,upgrade_dragon_title_1,ugprade_dragon_desc_1,slowburn,,trinket_Dragon,30,Burn;1;3,,0,0,0,0,0,1,1,0,0
+dragon,upgrade_dragon_title_2,ugprade_dragon_desc_2,biggerexplosions,,trinket_Dragon,100,,,0,0,2,1,0,1,1,0,0
+dragon,upgrade_dragon_title_3,ugprade_dragon_desc_3,swole,, trinket_Dragon,200,,,5,0,0,0,0,1,1,0,0

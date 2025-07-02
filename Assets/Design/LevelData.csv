@@ -1,0 +1,18 @@
+# level_id, waves, waves endless, unlock_req, difficulty, cash reward, tower reward, level_prefab, lives, gold, waves, trinkets, bird height
+,,,,,,,,,,,,
+easy_gr_falls,Easy_1,EndlessWaves_Easy_Easy&EndlessWaves_Easy_Medium&EndlessWaves_Easy_Hard,0,0,50,,EASY_Grassy_Falls,200,550,20;40;60,trinket_Wayno;boss_wayno;0.15&trinket_Wayno;boss_wayno;0.15,3
+easy_wl_overpass,Easy_2,EndlessWaves_Easy_Easy&EndlessWaves_Easy_Medium&EndlessWaves_Easy_Hard,1,0,50,,EASY_Woodland_Overpass,200,550,20;40;60,trinket_Ogre;boss_ogre;0.15&trinket_Ogre;boss_ogre;0.15,3
+easy_hl_chambers,Easy_3,EndlessWaves_Easy_Easy&EndlessWaves_Easy_Medium&EndlessWaves_Easy_Hard,2,0,50,,EASY_Hollow_Chambers,200,550,20;40;60,trinket_Pult;boss_pult;0.15&trinket_Pult;boss_pult;0.15,3
+med_mk_rainforest,Med_0_2L,EndlessWaves_2L_Medium_Easy&EndlessWaves_2L_Medium_Medium&EndlessWaves_2L_Medium_Hard,8,1,75,,MED_Murky_Rainforest_2L,150,550,20;40;60,trinket_Samurai;boss_samurai;0.15&trinket_Samurai;boss_samurai;0.15,3
+med_tl_dusk,Med_1_2L,EndlessWaves_2L_Medium_Easy&EndlessWaves_2L_Medium_Medium&EndlessWaves_2L_Medium_Hard,10,1,75,,MED_Timberland_Dusk_2L,150,550,20;40;60,trinket_Goo;boss_goo;0.15&trinket_Goo;boss_goo;0.15,3
+med_ca_cavern,Med_0_1L,EndlessWaves_Medium_Easy&EndlessWaves_Medium_Medium&EndlessWaves_Medium_Hard,12,1,75,,MED_Creaky_Cavern ,150,550,20;40;60,trinket_Ice;boss_ice;0.15&trinket_Ice;boss_ice;0.15,3
+med_ms_boardwalk,Med_1_1L,EndlessWaves_Medium_Easy&EndlessWaves_Medium_Medium&EndlessWaves_Medium_Hard,15,1,100,,MED_Misty_Boardwalk,150,550,20;40;60,trinket_Goo;boss_goo;0.15&trinket_Goo;boss_goo;0.15,3
+med_gc_ravine,Med_2_1L,EndlessWaves_Medium_Easy&EndlessWaves_Medium_Medium&EndlessWaves_Medium_Hard,17,1,100,,MED_Glacial_Ravine ,150,550,20;40;60,trinket_Samurai;boss_samurai;0.15&trinket_Samurai;boss_samurai;0.15,3
+med_vc_cliffs,Med_3_1L,EndlessWaves_Medium_Easy&EndlessWaves_Medium_Medium&EndlessWaves_Medium_Hard,19,1,100,,MED_Vulcanic_Cliffs,150,550,20;40;60,trinket_Pult;boss_pult;0.15&trinket_Pult;boss_pult;0.15,3
+hard_rd_courtyard ,Hard_0_1L,EndlessWaves_Hard_Easy&EndlessWaves_Hard_Medium&EndlessWaves_Hard_Hard,24,2,225,,HARD_Radiant_Courtyard,100,550,20;40;60,trinket_Dragon;boss_dragon;0.15&trinket_Dragon;boss_dragon;0.15,3
+hard_mn_forest,Hard_0_4L,EndlessWaves_4L_Hard_Easy&EndlessWaves_4L_Hard_Medium&EndlessWaves_4L_Hard_Hard,26,2,225,,HARD_Midnight_Forest_4L,100,550,20;40;61,trinket_Pult;boss_pult;0.15&trinket_Pult;boss_pult;0.15,3
+hard_sk_falls,Hard_0_2L,EndlessWaves_2L_Hard_Easy&EndlessWaves_2L_Hard_Medium&EndlessWaves_2L_Hard_Hard,28,2,350,,HARD_Sakura_Falls_2L,100,550,20;40;60,trinket_Samurai;boss_samurai;0.15&trinket_Samurai;boss_samurai;0.15,3
+hard_bl_abyss,Hard_1_1L,EndlessWaves_Hard_Easy&EndlessWaves_Hard_Medium&EndlessWaves_Hard_Hard,33,2,350,,HARD_Blizzard_Abyss,100,550,20;40;60,trinket_Ice;boss_ice;0.15&trinket_Ice;boss_ice;0.15,3
+hard_mk_cross,Hard_1_2L,EndlessWaves_2L_Hard_Easy&EndlessWaves_2L_Hard_Medium&EndlessWaves_2L_Hard_Hard,36,2,375,,HARD_Murky_Cross_2L,100,550,20;40;60,trinket_Goo;boss_goo;0.15&trinket_Goo;boss_goo;0.15,3
+hard_bz_bedrocks,Hard_2_2L,EndlessWaves_2L_Hard_Easy&EndlessWaves_2L_Hard_Medium&EndlessWaves_2L_Hard_Hard,42,2,580,,HARD_Blazing_Bedrocks_2L,100,550,20;40;60,trinket_Dragon;boss_dragon;0.15&trinket_Dragon;boss_dragon;0.15,3
+FTUE,Easy_0,,0,0,20,frumpy&flame&ninja,LVL_FTUE,1000,500,3;6;10,,

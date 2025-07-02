@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 466728}
+  - component: {fileID: 11481110}
+  m_Layer: 0
+  m_Name: MED_Misty_Boardwalk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &466728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11481110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ac7f44673984f5fb36825db5371569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portraitImage: {fileID: 21300000, guid: 35ca972c5437cf9418c43f5e8da4ccb8, type: 3}
+  mapPrefab: {fileID: 116098, guid: 3507c9f8c385ca54289f7ba37bb74022, type: 2}
+  towerList: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalMode.waves
+      value: 
+      objectReference: {fileID: 11445566, guid: f47ec206de3ce4caa92f99050f4ae95e,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: normalMode.startingLives
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalMode.startingWood
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalMode.startingGold
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[4]
+      value: 
+      objectReference: {fileID: 129674, guid: bc5fda633c7107d4ba02485939a40c58, type: 2}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[5]
+      value: 
+      objectReference: {fileID: 129674, guid: 9f859779d8eabd84eb05b83775dde058, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mapPrefab
+      value: 
+      objectReference: {fileID: 116098, guid: bc6a94c3032bb094e803cdd55b9d28f5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[2]
+      value: 
+      objectReference: {fileID: 129674, guid: 8bba1c4e2a328d54c9e97ae469d6f6c8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[3]
+      value: 
+      objectReference: {fileID: 112060, guid: 2b22c0243cd28f443b57fb4d4a723a7e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[1]
+      value: 
+      objectReference: {fileID: 129674, guid: 4ff7055e9a153214ebb77b6adc96a7d2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: displayName
+      value: GRASSY CLIFFS
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalMode.towerList.Array.data[8]
+      value: 
+      objectReference: {fileID: 129674, guid: 6855498271954a64fa6d09eff0fadc68, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 156658}
+  m_IsPrefabParent: 1

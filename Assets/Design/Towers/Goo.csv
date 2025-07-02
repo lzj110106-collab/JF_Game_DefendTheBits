@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius,UI Icons
+1600,2350,RNG2,Default,Slow;0.3;5,3,0.3,3,1,0.5,range&slow&splash
+1950,1900,RNG2,Default,Slow;0.3;5,4,0.35,3,2,0.75,range&slow&splash
+2250,2250,RNG2,Default,Slow;0.3;6,5,0.35,3,2,0.75,range&slow&splash
+2500,2600,RNG2,Default,Slow;0.2;7,5,0.4,3,2,1,range&slow&splash
+2750,2850,RNG2,Default,Slow;0.2;8,6,0.4,3,3,1.5,range&slow&splash

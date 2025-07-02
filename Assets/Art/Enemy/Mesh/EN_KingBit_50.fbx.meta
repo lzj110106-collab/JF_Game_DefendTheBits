@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 202c1e69bd63b2d40b0dddb35d731124
+timeCreated: 1492573330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Crown
+    100004: //RootNode
+    100006: Face
+    100008: hair
+    100010: Scale
+    100012: Shadow
+    100014: shake
+    100016: Skull
+    100018: Stroke
+    100020: Eye
+    100022: EyeBrow
+    100024: Pupil
+    400000: Body
+    400002: Crown
+    400004: //RootNode
+    400006: Face
+    400008: hair
+    400010: Scale
+    400012: Shadow
+    400014: shake
+    400016: Skull
+    400018: Stroke
+    400020: Eye
+    400022: EyeBrow
+    400024: Pupil
+    2300000: Body
+    2300002: Crown
+    2300004: Face
+    2300006: hair
+    2300008: Shadow
+    2300010: Skull
+    2300012: Stroke
+    2300014: Eye
+    2300016: EyeBrow
+    2300018: Pupil
+    3300000: Body
+    3300002: Crown
+    3300004: Face
+    3300006: hair
+    3300008: Shadow
+    3300010: Skull
+    3300012: Stroke
+    3300014: Eye
+    3300016: EyeBrow
+    3300018: Pupil
+    4300000: Crown
+    4300002: Body
+    4300004: Face
+    4300006: Stroke
+    4300008: hair
+    4300010: Skull
+    4300012: Shadow
+    4300014: Eye
+    4300016: Pupil
+    4300018: EyeBrow
+    7400000: EN_KingBit_50_Walk
+    7400002: EN_KingBit_50_Death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EN_KingBit_50_Walk
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: PlayClip
+        data: Enemy_Bounce
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shake
+        weight: 1
+      - path: shake/Crown
+        weight: 1
+      - path: shake/Scale
+        weight: 1
+      - path: shake/Scale/Body
+        weight: 1
+      - path: shake/Scale/Body/Face
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye/EyeBrow
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye/Pupil
+        weight: 1
+      - path: shake/Scale/Body/hair
+        weight: 1
+      - path: shake/Scale/Body/Skull
+        weight: 1
+      - path: shake/Scale/Body/Stroke
+        weight: 1
+      - path: shake/Scale/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EN_KingBit_50_Death
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.98056155
+        functionName: PlayEffect
+        data: PFX_Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: OnDeathComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shake
+        weight: 1
+      - path: shake/Crown
+        weight: 1
+      - path: shake/Scale
+        weight: 1
+      - path: shake/Scale/Body
+        weight: 1
+      - path: shake/Scale/Body/Face
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye/EyeBrow
+        weight: 1
+      - path: shake/Scale/Body/Face/Eye/Pupil
+        weight: 1
+      - path: shake/Scale/Body/hair
+        weight: 1
+      - path: shake/Scale/Body/Skull
+        weight: 1
+      - path: shake/Scale/Body/Stroke
+        weight: 1
+      - path: shake/Scale/Shadow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

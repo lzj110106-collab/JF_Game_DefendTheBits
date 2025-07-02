@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 7826f64e46fa0ee4288088363ed742a5
+timeCreated: 1463325635
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: CH_Penelope
+    100004: Clouds
+    100006: Hair
+    100008: Horn
+    100010: Loc_Muzzle
+    100012: Penelope
+    100014: Shadow
+    100016: Swivel
+    100018: //RootNode
+    100020: Cloud_00
+    100022: Cloud_01
+    100024: Cloud_02
+    100026: Cloud_03
+    100028: Cloud_04
+    100030: Cloud_05
+    400000: Base
+    400002: CH_Penelope
+    400004: Clouds
+    400006: Hair
+    400008: Horn
+    400010: Loc_Muzzle
+    400012: Penelope
+    400014: Shadow
+    400016: Swivel
+    400018: //RootNode
+    400020: Cloud_00
+    400022: Cloud_01
+    400024: Cloud_02
+    400026: Cloud_03
+    400028: Cloud_04
+    400030: Cloud_05
+    2300000: Base
+    2300002: Clouds
+    2300004: Hair
+    2300006: Horn
+    2300008: Penelope
+    2300010: Shadow
+    2300012: Cloud_00
+    2300014: Cloud_01
+    2300016: Cloud_02
+    2300018: Cloud_03
+    2300020: Cloud_04
+    2300022: Cloud_05
+    3300000: Base
+    3300002: Clouds
+    3300004: Hair
+    3300006: Horn
+    3300008: Penelope
+    3300010: Shadow
+    3300012: Cloud_00
+    3300014: Cloud_01
+    3300016: Cloud_02
+    3300018: Cloud_03
+    3300020: Cloud_04
+    3300022: Cloud_05
+    4300000: Base
+    4300002: Clouds
+    4300004: Shadow
+    4300006: Penelope
+    4300008: Horn
+    4300010: Hair
+    4300012: Cloud_00
+    4300014: Cloud_01
+    4300016: Cloud_02
+    4300018: Cloud_03
+    4300020: Cloud_04
+    4300022: Cloud_05
+    7400000: TWR_Penelope_Soawn
+    7400002: TWR_Penelope_Idle
+    7400004: TWR_Penelope_Attack
+    7400006: TWR_Penelope_Victory
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TWR_Penelope_Soawn
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Clouds
+        weight: 1
+      - path: Clouds/Cloud_00
+        weight: 1
+      - path: Clouds/Cloud_01
+        weight: 1
+      - path: Clouds/Cloud_02
+        weight: 1
+      - path: Clouds/Cloud_03
+        weight: 1
+      - path: Clouds/Cloud_04
+        weight: 1
+      - path: Clouds/Cloud_05
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Loc_Muzzle
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Hair
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Horn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Penelope_Idle
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Clouds
+        weight: 1
+      - path: Clouds/Cloud_00
+        weight: 1
+      - path: Clouds/Cloud_01
+        weight: 1
+      - path: Clouds/Cloud_02
+        weight: 1
+      - path: Clouds/Cloud_03
+        weight: 1
+      - path: Clouds/Cloud_04
+        weight: 1
+      - path: Clouds/Cloud_05
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Loc_Muzzle
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Hair
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Horn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Penelope_Attack
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3029613
+        functionName: FireWeapon
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: -1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Clouds
+        weight: 1
+      - path: Clouds/Cloud_00
+        weight: 1
+      - path: Clouds/Cloud_01
+        weight: 1
+      - path: Clouds/Cloud_02
+        weight: 1
+      - path: Clouds/Cloud_03
+        weight: 1
+      - path: Clouds/Cloud_04
+        weight: 1
+      - path: Clouds/Cloud_05
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Loc_Muzzle
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Hair
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Horn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TWR_Penelope_Victory
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Clouds
+        weight: 1
+      - path: Clouds/Cloud_00
+        weight: 1
+      - path: Clouds/Cloud_01
+        weight: 1
+      - path: Clouds/Cloud_02
+        weight: 1
+      - path: Clouds/Cloud_03
+        weight: 1
+      - path: Clouds/Cloud_04
+        weight: 1
+      - path: Clouds/Cloud_05
+        weight: 1
+      - path: Swivel
+        weight: 1
+      - path: Swivel/CH_Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Loc_Muzzle
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Hair
+        weight: 1
+      - path: Swivel/CH_Penelope/Penelope/Horn
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

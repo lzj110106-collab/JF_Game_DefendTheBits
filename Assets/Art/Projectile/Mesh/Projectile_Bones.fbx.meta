@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: 43b00105a23ca694a941cc8714f30187
+timeCreated: 1440600465
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm_01
+    100002: Arm_02
+    100004: Arm_03
+    100006: BrokenGround_01
+    100008: BrokenGround_02
+    100010: BrokenGround_03
+    100012: BrokenGround_04
+    100014: BrokenGround_05
+    100016: BrokenGround_06
+    100018: Fingers
+    100020: Fingers 1
+    100022: Fingers 2
+    100024: Glow
+    100026: Glow 1
+    100028: Glow 2
+    100030: Hand
+    100032: Hand 1
+    100034: Hand 2
+    100036: //RootNode
+    100038: Thumb
+    100040: Thumb 1
+    100042: Thumb 2
+    100044: ZombieArm_01
+    100046: ZombieArm_02
+    100048: ZombieArm_03
+    400000: Arm_01
+    400002: Arm_02
+    400004: Arm_03
+    400006: BrokenGround_01
+    400008: BrokenGround_02
+    400010: BrokenGround_03
+    400012: BrokenGround_04
+    400014: BrokenGround_05
+    400016: BrokenGround_06
+    400018: Fingers
+    400020: Fingers 1
+    400022: Fingers 2
+    400024: Glow
+    400026: Glow 1
+    400028: Glow 2
+    400030: Hand
+    400032: Hand 1
+    400034: Hand 2
+    400036: //RootNode
+    400038: Thumb
+    400040: Thumb 1
+    400042: Thumb 2
+    400044: ZombieArm_01
+    400046: ZombieArm_02
+    400048: ZombieArm_03
+    2300000: BrokenGround_01
+    2300002: BrokenGround_02
+    2300004: BrokenGround_03
+    2300006: BrokenGround_04
+    2300008: BrokenGround_05
+    2300010: BrokenGround_06
+    2300012: Fingers
+    2300014: Fingers 1
+    2300016: Fingers 2
+    2300018: Glow
+    2300020: Glow 1
+    2300022: Glow 2
+    2300024: Hand
+    2300026: Hand 1
+    2300028: Hand 2
+    2300030: Thumb
+    2300032: Thumb 1
+    2300034: Thumb 2
+    2300036: ZombieArm_01
+    2300038: ZombieArm_02
+    2300040: ZombieArm_03
+    3300000: BrokenGround_01
+    3300002: BrokenGround_02
+    3300004: BrokenGround_03
+    3300006: BrokenGround_04
+    3300008: BrokenGround_05
+    3300010: BrokenGround_06
+    3300012: Fingers
+    3300014: Fingers 1
+    3300016: Fingers 2
+    3300018: Glow
+    3300020: Glow 1
+    3300022: Glow 2
+    3300024: Hand
+    3300026: Hand 1
+    3300028: Hand 2
+    3300030: Thumb
+    3300032: Thumb 1
+    3300034: Thumb 2
+    3300036: ZombieArm_01
+    3300038: ZombieArm_02
+    3300040: ZombieArm_03
+    4300000: ZombieArm_01
+    4300002: Hand
+    4300004: Fingers
+    4300006: Thumb
+    4300008: BrokenGround_02
+    4300010: BrokenGround_01
+    4300012: Glow
+    4300014: ZombieArm_02
+    4300016: Hand
+    4300018: Fingers
+    4300020: Thumb
+    4300022: BrokenGround_03
+    4300024: BrokenGround_04
+    4300026: Glow
+    4300028: ZombieArm_03
+    4300030: Hand
+    4300032: Fingers
+    4300034: Thumb
+    4300036: BrokenGround_06
+    4300038: BrokenGround_05
+    4300040: Glow
+    7400000: PRJ_Bones_Spawn
+    7400002: PRJ_Bones_Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PRJ_Bones_Spawn
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_01
+        weight: 1
+      - path: Arm_01/BrokenGround_01
+        weight: 1
+      - path: Arm_01/BrokenGround_02
+        weight: 1
+      - path: Arm_01/Glow
+        weight: 1
+      - path: Arm_01/ZombieArm_01
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand/Fingers
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand/Thumb
+        weight: 1
+      - path: Arm_02
+        weight: 1
+      - path: Arm_02/BrokenGround_03
+        weight: 1
+      - path: Arm_02/BrokenGround_04
+        weight: 1
+      - path: Arm_02/Glow 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1/Fingers 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1/Thumb 1
+        weight: 1
+      - path: Arm_03
+        weight: 1
+      - path: Arm_03/BrokenGround_05
+        weight: 1
+      - path: Arm_03/BrokenGround_06
+        weight: 1
+      - path: Arm_03/Glow 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2/Fingers 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2/Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PRJ_Bones_Idle
+      takeName: Take 001
+      firstFrame: 27
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_01
+        weight: 1
+      - path: Arm_01/BrokenGround_01
+        weight: 1
+      - path: Arm_01/BrokenGround_02
+        weight: 1
+      - path: Arm_01/Glow
+        weight: 1
+      - path: Arm_01/ZombieArm_01
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand/Fingers
+        weight: 1
+      - path: Arm_01/ZombieArm_01/Hand/Thumb
+        weight: 1
+      - path: Arm_02
+        weight: 1
+      - path: Arm_02/BrokenGround_03
+        weight: 1
+      - path: Arm_02/BrokenGround_04
+        weight: 1
+      - path: Arm_02/Glow 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1/Fingers 1
+        weight: 1
+      - path: Arm_02/ZombieArm_02/Hand 1/Thumb 1
+        weight: 1
+      - path: Arm_03
+        weight: 1
+      - path: Arm_03/BrokenGround_05
+        weight: 1
+      - path: Arm_03/BrokenGround_06
+        weight: 1
+      - path: Arm_03/Glow 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2/Fingers 2
+        weight: 1
+      - path: Arm_03/ZombieArm_03/Hand 2/Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

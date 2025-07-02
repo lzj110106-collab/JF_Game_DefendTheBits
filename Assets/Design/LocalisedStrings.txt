@@ -1,0 +1,697 @@
+﻿string_id,ENGLISH,CHINESE - SIMPLIFIED
+language_name,English,��������
+,,
+ui_diff_0,Easy,��
+ui_diff_1,Medium,�е�
+ui_diff_2,Hard,����
+ui_complete_quests,Complete Quests to Unlock!,����������
+ui_connect_wifi_header,Error.,����
+ui_connect_wifi_body,Unable to connect to store. Please check your internet connection and try again.,�޷��������̵꣬��ȷ�������������!
+ui_yes,Yes,��
+ui_no,No,��
+ui_ok,OK,�õ�
+ui_warning,Warning,����
+ui_lose_progress,All progress will be lost,���н��ȶ�����ʧ���Ƿ������
+ui_resume,Resume game?,������Ϸ?
+ui_resume_pause,Resume game,������Ϸ
+ui_resume_body,Would you like to resume {name0} at wave {number0} with {number1} gold and {number2} lives?,���������{name0}��{number0}����{number1}���{number2}����ֵ����Ϸ������
+ui_star,To earn 3 stars,���ܵ�{number0}�����˲��ұ���{number2}���ϵ�����ֵ�Ի��3�����ǵ����ۡ�
+ui_collect_trinkets,Collect more {name0} trinkets to unlock!,�ռ�����{name0}С��Ʒ������
+ui_trinket,Trinket,��Ʒ
+,,
+tower_name_archer,Archer,������
+tower_desc_archer_0,The frontline all-rounder.,ǰ��ȫ���֡�
+tower_desc_archer_1,Improved {range|range}  `Increased {speed|speed},ǿ��{���|range}  `���{����|speed}
+tower_desc_archer_2,Improved {range!|range} `Increased {speed!|speed},ǿ��{���!|range} `���{����!|speed}
+tower_desc_archer_3,More {damage|damage},���{�˺�|damage}
+tower_desc_archer_4,Improved {range!|range} `Gain {fire arrows|ability},ǿ��{���!|range} `���{�����ʸ|ability}����
+tower_name_bee,Bee,�۷�
+tower_desc_bee_0,Shoots stingers in 4 directions. She's a real buzz kill.,���ĸ������ͷż�̣���Ҳʹ�������Щ���֡�
+tower_desc_bee_1,Increased {speed|speed},���{����|speed}
+tower_desc_bee_2,Improved {range!|range} `Increased {speed|speed},ǿ��{���!|range} `���{����|speed}
+tower_desc_bee_3,More {damage|damage},���{�˺�|damage}
+tower_desc_bee_4,Improved {range|range},ǿ��{���|range}
+tower_name_dayne,Duck,Ѽ��
+tower_desc_dayne_0,Lays precious Golden Eggs. Tap on them to collect Coins!,��ʱ���������Ľ𵰣��ǵö�������ȡ���Ŷ��
+tower_desc_dayne_1,Quack! (More {gold|ability}),�ɣ� (����{���|ability})
+tower_desc_dayne_2,Quack! Quack! (More {gold|ability}),�ɣ� �ɣ� (����{���|ability})
+tower_desc_dayne_3,Quack! Quack! Quack! (More {gold|ability}),�ɣ� �ɣ� �ɣ� (����{���|ability})
+tower_desc_dayne_4,....Quack! (More {gold|ability}),....�ɣ� (����{���|ability})
+tower_name_dragon,Dragon,����
+tower_desc_dragon_0,Releases a massive ring of fire,�����������״���棬��а�������տ���飡
+tower_desc_dragon_1,More {damage|damage} `Improved {range|range} `bigger {splash|splash} `stronger {burn|ability},����{�˺�|damage} `ǿ��{���|range} `����{���䷶Χ|splash} `���{����|ability}����
+tower_desc_dragon_2,More {damage!|damage} `Increased {speed|speed} `stronger {burn!|ability} `bigger {splash!|splash},����{�˺�!|damage} `���{����|speed} `���{����!|ability}���� `����{���䷶Χ!|splash}
+tower_desc_dragon_3,More {damage!!|damage}  `Improved {range|range} `bigger {splash|splash} `stronger {burn!!|ability},����{�˺�!!|damage}  `ǿ��{���|range} `����{���䷶Χ|splash} `���{����!!|ability}����
+tower_desc_dragon_4,More {damage!!!|damage} `Increased {speed|speed} `stronger {burn!!!|ability},����{�˺�!!!|damage} `���{����|speed} `���{����!!!|ability}����
+tower_name_dwarf,Viking,ά��սʿ
+tower_desc_dwarf_0,Swings massive axe to wreck Bad-Blocks.,������ս�����ϻ���а���飡
+tower_desc_dwarf_1,more {damage|damage} `Increased {speed|speed},����{�˺�|damage} `���{����|speed}
+tower_desc_dwarf_2,more {damage!|damage}  `bigger {splash|splash}  `improved {range|range},����{�˺�!|damage}  `����{���䷶Χ|splash}  `ǿ��{���|range}
+tower_desc_dwarf_3,more {damage!!|damage} `bigger {splash!|splash},����{�˺�!!|damage} `����{���䷶Χ!|splash}
+tower_desc_dwarf_4,more {damage!!!|damage}  `Increased {speed|speed},����{�˺�!!!|damage}  `���{����|speed}
+tower_name_flame,Flame,�һ�
+tower_desc_flame_0,Spits deadly fireballs that burn.,����������ȼ�ջ���
+tower_desc_flame_1,more {damage|damage} `stronger {burn|ability} `Increased {speed|speed},����{�˺�|damage} `���{����|ability}���� `���{����|speed}
+tower_desc_flame_2,more {damage!|damage} `stronger {burn!|ability} `Increased {speed!|speed}  `improved {range|range},����{�˺�!|damage} `���{����!|ability}���� `���{����!|speed}  `ǿ��{���|range}
+tower_desc_flame_3,more {damage!!|damage} `stronger {burn!!|ability} `Increased {speed!!|speed} `improved {range!|range},����{�˺�!!|damage} `���{����!!|ability}���� `���{����!!|speed} `ǿ��{���!|range}
+tower_desc_flame_4,more {damage!!!|damage} `stronger {burn!!!|ability} `Increased {speed!!!|speed},����{�˺�!!!|damage} `���{����!!!|ability}���� `���{����!!!|speed}
+tower_name_frumpy,Frumpy,����
+tower_desc_frumpy_0,Slows Bad-Blocks with her mud.,��������ߵ��������а���顣
+tower_desc_frumpy_1,better {slow|ability},���{����|ability}����
+tower_desc_frumpy_2,better {slow!|ability} `improved {range|range},���{����!|ability}���� `ǿ��{���|range}
+tower_desc_frumpy_3,better {slow!!|ability} `improved {range|range},���{����!!|ability}���� `ǿ��{���|range}
+tower_desc_frumpy_4,better {slow!!!|ability},���{����!!!|ability}����
+tower_name_goo,Goo,ճ��
+tower_desc_goo_0,Releases a toxic slime that slows and damages Bad-Blocks.,�ͷ��ж���ճҺ�����ٲ���а��������ɳ����˺���
+tower_desc_goo_1,More {damage|damage} `Increased {speed|speed} `bigger {splash|splash},����{�˺�|damage} `���{����|speed} `����{���䷶Χ|splash}
+tower_desc_goo_2,More {damage!|damage} `better {slow|ability},����{�˺�!|damage} `���{����|ability}����
+tower_desc_goo_3,Increased {speed|speed} `bigger {splash!|splash} `better {slow!!|ability},���{����|speed} `����{���䷶Χ!|splash} `���{����!!|ability}����
+tower_desc_goo_4,More {damage|damage} `bigger {splash!!|splash} `better {slow!!!|ability},����{�˺�|damage} `����{���䷶Χ!!|splash} `���{����!!!|ability}����
+tower_name_ice,Ice,����
+tower_desc_ice_0,Freezes Bad-Blocks for a long duration. Frozen Bad-Blocks take less damage.,��а�����ǳ�ʱ�䶳��ԭ�أ�����ס��а�����ܵ����˺��ϵ͡�
+tower_desc_ice_1,More {damage|damage} `Improved {range|range} `bigger {splash|splash},����{�˺�|damage} `ǿ��{���|range} `����{���䷶Χ|splash}
+tower_desc_ice_2,More {damage!|damage} `Increased {speed|speed} `better {freeze|ability},����{�˺�!|damage} `���{����|speed} `���{����|ability}����
+tower_desc_ice_3,More {damage!!|damage} `bigger {splash|splash},����{�˺�!!|damage} `����{���䷶Χ|splash}
+tower_desc_ice_4,More {damage!!!|damage} `Improved {range|range} `Increased {speed|speed} `bigger {splash!|splash},����{�˺�!!!|damage} `ǿ��{���|range} `���{����|speed} `����{���䷶Χ!|splash}
+tower_name_ninja,Ninja,����
+tower_desc_ninja_0,Keen eye. Incredibly fast.,Ŀ�������ж�Ѹ�ݡ�
+tower_desc_ninja_1,`Increased {speed|speed},`���{����|speed}
+tower_desc_ninja_2,Improved {range|range} `Increased {speed!|speed},ǿ��{���|range} `���{����!|speed}
+tower_desc_ninja_3,Increased {speed!!|speed},���{����!!|speed}
+tower_desc_ninja_4,Increased {speed!!!|speed},���{����!!!|speed}
+tower_desc_ninja_5,Increased {speed!!!!|speed},���{����!!!!|speed}
+tower_name_ogre,Ogre,��ħ
+tower_desc_ogre_0,Stuns even the strongest tanks! Has many layers.,�����ʵ��а����Ҳ�ܻ��Σ�
+tower_desc_ogre_1,More {damage|damage} `Increased {speed|speed},����{�˺�|damage} `���{����|speed}
+tower_desc_ogre_2,More {damage!|damage} `Improved {range|range} `better {stun|ability},����{�˺�!|damage} `ǿ��{���|range} `���{ѣ��|ability}����
+tower_desc_ogre_3,More {damage!!|damage} `bigger {splash|splash},����{�˺�!!|damage} `����{���䷶Χ|splash}
+tower_desc_ogre_4,More {damage!!!|damage} `Improved {range|range},����{�˺�!!!|damage} `ǿ��{���|range}
+tower_name_penelope,Penelope,��������
+tower_desc_penelope_0,AoE stuns Bad-Blocks to protect your hopes and dreams!,�ܹ�Ⱥ��ѣ��а���飬�������ϣ�������룡
+tower_desc_penelope_1,More {damage|damage} `better {stun|ability} `bigger {splash|splash},����{�˺�|damage} `���{ѣ��|ability}���� `����{���䷶Χ|splash}
+tower_desc_penelope_2,More {damage!|damage} `Increased {speed|speed} `Improved {range|range} `better {stun!|ability} `bigger {splash|splash},����{�˺�!|damage} `���{����|speed} `ǿ��{���|range} `���{ѣ��!|ability}���� `����{���䷶Χ|splash}
+tower_desc_penelope_3,More {damage!!|damage} `Increased {speed!|speed} `better {stun!!!|ability} `bigger {splash|splash},����{�˺�!!|damage} `���{����!|speed} `���{ѣ��!!!|ability}���� `����{���䷶Χ|splash}
+tower_desc_penelope_4,More {damage!!!|damage} `Improved {range|range}  `bigger {splash!|splash},����{�˺�!!!|damage} `ǿ��{���|range}  `����{���䷶Χ!|splash}
+tower_name_piggy,Piggy,С��
+tower_desc_piggy_0,Stuns Bad-Blocks with its flaming hot pan.,ʹ�������ȵļ��������а���顣
+tower_desc_piggy_1,more {damage|damage} `increased {speed|speed} `better {stun|ability},����{�˺�|damage} `���{����|speed} `���{ѣ��|ability}����
+tower_desc_piggy_2,more {damage!|damage} `better {stun!|ability},����{�˺�!|damage} `���{ѣ��!|ability}����
+tower_desc_piggy_3,better {stun!!|ability},���{ѣ��!!|ability}����
+tower_desc_piggy_4,More {damage|damage} `better {stun!!!|ability} `Increased {speed|speed},����{�˺�|damage} `���{ѣ��!!!|ability}���� `���{����|speed}
+tower_name_polar,Polar,������
+tower_desc_polar_0,Throws questionable snowballs. Frozen Bad-Blocks take less damage.,�ӳ�ѩ�򶳽�а���飬����ס��а�����ܵ����˺��ϵ͡�
+tower_desc_polar_1,more {damage|damage} `increased {speed|speed} `better {freeze|ability} `bigger {splash|splash},����{�˺�|damage} `���{����|speed} `���{����|ability}���� `����{���䷶Χ|splash}
+tower_desc_polar_2,more {damage!|damage} `Improved {range|range},����{�˺�!|damage} `ǿ��{���|range}
+tower_desc_polar_3,more {damage!!|damage} `Improved {range!|range} `better {freeze|ability},����{�˺�!!|damage} `ǿ��{���!|range} `���{����|ability}����
+tower_desc_polar_4,more {damage!!!|damage} `bigger {splash|splash},����{�˺�!!!|damage} `����{���䷶Χ|splash}
+tower_name_pult,Pult,Ͷ����
+tower_desc_pult_0,Launches various objects with massive AoE range.,�ܹ���������ɴ�Χ�˺�������Ͷ����ȥ��
+tower_desc_pult_1,More {damage|damage} `Improved {range|range} `bigger {splash|splash},����{�˺�|damage} `ǿ��{���|range} `����{���䷶Χ|splash}
+tower_desc_pult_2,More {damage!|damage} `Increased {speed|speed} `bigger {splash!|splash},����{�˺�!|damage} `���{����|speed} `����{���䷶Χ!|splash}
+tower_desc_pult_3,More {damage!|damage} `Improved {range|range}  `Increased {speed!|speed},����{�˺�!|damage} `ǿ��{���|range}  `���{����!|speed}
+tower_desc_pult_4,More {damage!!|damage} `bigger {splash!|splash},����{�˺�!!|damage} `����{���䷶Χ!|splash}
+tower_name_samurai,Samurai,��ʿ
+tower_desc_samurai_0,Its katana slices through crowds of Bad-Blocks.,ʹ����ʿ���п���Ⱥ��а���飡
+tower_desc_samurai_1,More {damage|damage} `Improved {range|range},����{�˺�|damage} `ǿ��{���|range}
+tower_desc_samurai_2,More {damage!|damage} `Increased {speed|speed},����{�˺�!|damage} `���{����|speed}
+tower_desc_samurai_3,More {damage!!|damage},����{�˺�!!|damage}
+tower_desc_samurai_4,More {damage!!!|damage} `Increased {speed|speed},����{�˺�!!!|damage} `���{����|speed}
+tower_name_soldier,Soldier,�����
+tower_desc_soldier_0,Reporting in! Provides AoE covering fire.,ʿ���������ṩ��Χ�Ļ���֧Ԯ��
+tower_desc_soldier_1,More {damage|damage} `bigger {splash|splash},����{�˺�|damage} `����{���䷶Χ|splash}
+tower_desc_soldier_2,More {damage!|damage} `Increased {speed|speed} `bigger {splash!|splash},����{�˺�!|damage} `���{����|speed} `����{���䷶Χ!|splash}
+tower_desc_soldier_3,More {damage!!|damage} `Improved {range|range}  `bigger {splash!!|splash},����{�˺�!!|damage} `ǿ��{���|range}  `����{���䷶Χ!!|splash}
+tower_desc_soldier_4,More {damage!!!|damage}  `Improved {range|range} `Increased {speed|speed} `bigger {splash!!!|splash},����{�˺�!!!|damage}  `ǿ��{���|range} `���{����|speed} `����{���䷶Χ!!!|splash}
+tower_name_tennis,Tennis,������
+tower_desc_tennis_0,Longest attack range but slow attack speed.,ӵ�м��ߵĹ�����Χ�������ٺ�����
+tower_desc_tennis_1,More {damage|damage},����{�˺�|damage}
+tower_desc_tennis_2,More {damage!|damage} `Increased {speed|speed} `Increased {targets|targets},����{�˺�!|damage} `���{����|speed} `����{����Ŀ��|targets}
+tower_desc_tennis_3,More {damage!!|damage},����{�˺�!!|damage}
+tower_desc_tennis_4,More {damage!!!|damage},����{�˺�!!!|damage}����{�˺�!!!|damage}
+tower_name_toes,Toes,ʳ����
+tower_desc_toes_0,Bites toes. Super fast death lasers!,��ҧ���ţ����������������ߣ�
+tower_desc_toes_1,Increased {speed|speed} `Improved {range|range},���{����|speed} `ǿ��{���|range}
+tower_desc_toes_2,Increased {speed!|speed},���{����!|speed}
+tower_desc_toes_3,Increased {speed!!|speed},���{����!!|speed}
+tower_desc_toes_4,Increased {speed!!!|speed}  `bigger {splash|splash},���{����!!!|speed}  `����{���䷶Χ|splash}
+tower_name_wayno,Wayno,����
+tower_desc_wayno_0,Throws a mean boomerang that hits Bad-Blocks in its path.,�ӳ�һ�������ڣ������;����а���飡
+tower_desc_wayno_1,More {damage|damage} `Increased {speed|speed},����{�˺�|damage} `���{����|speed}
+tower_desc_wayno_2,More {damage!|damage} `Increased {speed!|speed},����{�˺�!|damage} `���{����!|speed}
+tower_desc_wayno_3,More {damage!!|damage} `Increased {speed!!|speed} `Improved {range|range},����{�˺�!!|damage} `���{����!!|speed} `ǿ��{���|range}
+tower_desc_wayno_4,Increased {speed!!!|speed} `Increased {targets|targets},���{����!!!|speed} `����{���е�λ|targets}
+,,
+upgrade_archer_title_1,Bargain,�ּۻ���
+upgrade_archer_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_archer_title_2,Penny Pincher,һë����
+upgrade_archer_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_archer_title_3,Energy Boost,��������
+upgrade_archer_desc_3,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_dwarf_title_1,Bargain,�ּۻ���
+ugprade_dwarf_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_dwarf_title_2,Penny Pincher,һë����
+ugprade_dwarf_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_dwarf_title_3,Swole,��������
+ugprade_dwarf_desc_3,Increased attack damage.,�����˺���
+upgrade_soldier_title_1,Bargain,�ּۻ���
+ugprade_soldier_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_soldier_title_2,Bigger Blasts!,ŭ�𱬷���
+upgrade_soldier_desc_2,Increased splash range.,��߽��䷶Χ��
+upgrade_soldier_title_3,Split Shot,˫�����
+upgrade_soldier_desc_3,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+upgrade_frumpy_title_1,Bargain,�ּۻ���
+upgrade_frumpy_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_frumpy_title_2,Penny Pincher,һë����
+upgrade_frumpy_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_frumpy_title_3,Stickier,ճ������
+upgrade_frumpy_desc_3,Increased slow time.,��߼���ʱ����
+upgrade_ninja_title_1,Bargain,�ּۻ���
+ugprade_ninja_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_ninja_title_2,Penny Pincher,һë����
+ugprade_ninja_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_ninja_title_3,Energy Boost,��������
+ugprade_ninja_desc_3,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_piggy_title_1,Bargain,�ּۻ���
+ugprade_piggy_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_piggy_title_2,Penny Pincher,һë����
+ugprade_piggy_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_piggy_title_3,Stunner,ͷ鳻���
+ugprade_piggy_desc_3,Increased stun time.,���ѣ��ʱ����
+upgrade_polar_title_1,Bargain,�ּۻ���
+ugprade_polar_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_polar_title_2,Split Shot,˫�����
+ugprade_polar_desc_2,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+upgrade_polar_title_3,Deep Freeze,���
+ugprade_polar_desc_3,Increased freeze time.,��߱���ʱ����
+upgrade_tennis_title_1,Bargain,�ּۻ���
+ugprade_tennis_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_tennis_title_2,Energy Boost,��������
+ugprade_tennis_desc_2,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_tennis_title_3,Split Shot,˫�����
+ugprade_tennis_desc_3,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+upgrade_bee_title_1,Bargain,�ּۻ���
+ugprade_bee_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_bee_title_2,Shatter,�Ʊ���
+ugprade_bee_desc_2,Ability to hit frozen targets.,��Ч�Կ��������Ŀ�ꡣ
+upgrade_bee_title_3,Energy Boost,��������
+ugprade_bee_desc_3,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_flame_title_1,Bargain,�ּۻ���
+ugprade_flame_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_flame_title_2,Swole,��������
+ugprade_flame_desc_2,Increased attack damage.,�����˺���
+upgrade_flame_title_3,Slow Burn,����С��
+ugprade_flame_desc_3,Increased burn time.,���ȼ��ʱ����
+upgrade_wayno_title_1,Bargain,�ּۻ���
+ugprade_wayno_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_wayno_title_2,Swole,��������
+ugprade_wayno_desc_2,Increased attack damage.,�����˺���
+upgrade_wayno_title_3,Energy Boost,��������
+ugprade_wayno_desc_3,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_pult_title_1,Bargain,�ּۻ���
+ugprade_pult_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_pult_title_2,Bigger Blasts!,ŭ�𱬷���
+ugprade_pult_desc_2,Increased splash range.,��߽��䷶Χ��
+upgrade_pult_title_3,Swole,��������
+ugprade_pult_desc_3,Increased attack damage.,�����˺���
+upgrade_dayne_title_1,Gold Mine,�������
+ugprade_dayne_desc_1,Increased gold reward.,��߽�ҽ�����
+upgrade_dayne_title_2,Penny Pincher,һë����
+ugprade_dayne_desc_2,Refund sale increased.,���۷�������õĽ���������ӡ�
+upgrade_dayne_title_3,Lucky Duck,����Ѽ��
+ugprade_dayne_desc_3,Small chance of laying two eggs in a row.,С����������ֻ�𵰡�
+upgrade_ogre_title_1,Swole,��������
+ugprade_ogre_desc_1,Increased attack damage.,�����˺���
+upgrade_ogre_title_2,Bigger Blasts!,ŭ�𱬷���
+ugprade_ogre_desc_2,Increased splash range.,��߽��䷶Χ��
+upgrade_ogre_title_3,Stunner,ͷ鳻���
+ugprade_ogre_desc_3,Increased stun time.,���ѣ��ʱ����
+upgrade_ice_title_1,Bargain,�ּۻ���
+ugprade_ice_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_ice_title_2,Split Shot,˫�����
+ugprade_ice_desc_2,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+upgrade_ice_title_3,Swole,��������
+ugprade_ice_desc_3,Increased attack damage.,�����˺���
+upgrade_samurai_title_1,Bargain,�ּۻ���
+ugprade_samurai_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_samurai_title_2,Shatter,�Ʊ���
+ugprade_samurai_desc_2,Ability to hit frozen targets.,��Ч�Կ��������Ŀ�ꡣ
+upgrade_samurai_title_3,Swole,��������
+ugprade_samurai_desc_3,Increased attack damage.,�����˺���
+upgrade_penelope_title_1,Bargain,�ּۻ���
+ugprade_penelope_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_penelope_title_2,Stunner,ͷ鳻���
+ugprade_penelope_desc_2,Increased stun time.,���ѣ��ʱ����
+upgrade_penelope_title_3,Bigger Blasts!,ŭ�𱬷���
+ugprade_penelope_desc_3,Increased splash range.,��߽��䷶Χ��
+upgrade_goo_title_1,Bargain,�ּۻ���
+ugprade_goo_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_goo_title_2,Stickier,ճ������
+ugprade_goo_desc_2,Increased slow time.,��߼���ʱ����
+upgrade_goo_title_3,Bigger Blasts!,ŭ�𱬷���
+ugprade_goo_desc_3,Increased splash range.,��߽��䷶Χ��
+upgrade_toes_title_1,Bargain,�ּۻ���
+ugprade_toes_desc_1,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+upgrade_toes_title_2,Energy Boost,��������
+ugprade_toes_desc_2,Increased attack speed.,���ӹ����ٶȡ�
+upgrade_toes_title_3,Split Shot,˫�����
+ugprade_toes_desc_3,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+upgrade_dragon_title_1,Slow Burn,����С��
+ugprade_dragon_desc_1,Increased burn time.,���ȼ��ʱ����
+upgrade_dragon_title_2,Bigger Blasts!,ŭ�𱬷���
+ugprade_dragon_desc_2,Increased splash range.,��߽��䷶Χ��
+upgrade_dragon_title_3,Swole,��������
+ugprade_dragon_desc_3,Increased attack damage.,�����˺���
+,,
+med_ca_cavern,Creaky Cavern,�Ϲ�ɽ��
+easy_hl_chambers,Hollow Chambers,�յ�����
+hard_rd_courtyard,Radiant Courtyard,�����쾮
+hard_mn_forest,Midnight Forest,��ҹ����
+med_tl_dusk,Timberlands Dusk,�ƻ�ĺ��
+easy_gr_falls,Grassy Falls,��ݷ���
+easy_wl_overpass,Woodland Overpass,�ֵؽ���
+med_gc_ravine,Glacial Ravine,�����ѹ�
+hard_bl_abyss,Blizzard Abyss,��ѩ��Ԩ
+med_ms_boardwalk,Misty Boardwalk,����ƽԭ
+med_mk_rainforest,Murky Rainforest,�ȴ�����
+hard_mk_cross,Murky Cross,�����ӵ�
+med_vc_cliffs,Volcanic Cliffs,��ɽ����
+hard_bz_bedrocks,Blazing Bedrocks,���Ȼ���
+hard_sk_falls,Sakura Falls,ӣ���ٲ�
+,,
+effect_name_burn,Burn,����
+effect_desc_burn,Inflicts burn damage over time.,��ʱ��������������˺���
+effect_name_poison,Poison,�ж�
+effect_desc_poison,Inflicts poison damage over time.,��ʱ��������ɶ����˺���
+effect_name_slow,Slow,����
+effect_desc_slow,Slows Bad-Blocks movement speed.,����а������ƶ��ٶȡ�
+effect_name_stun,Stun,ѣ��
+effect_desc_stun,Stops Bad-Blocks for some time.,ʹа����ͣ��һ��ʱ�䡣
+effect_name_freeze,Freeze,����
+effect_desc_freeze,Turns Bad-Blocks into ice cubes.,ʹа�����ɱ��顣
+,,
+icon_name_melee,Melee,��ս
+icon_desc_melee,Attacks from melee,��ս������
+icon_name_range,range,Զ��
+icon_desc_range,Attacks from range,Զ�̹�����
+icon_name_burn,Burn,����
+icon_desc_burn,Inflicts damage over time.,��ʱ��������������˺���
+icon_name_freeze,Freeze,����
+icon_desc_freeze,Freezes Bad-Blocks solid,ʹа�����ɱ��顣
+icon_name_splash,Splash,����
+icon_desc_splash,Attacks affect surrounding Bad-Blocks.,�������˺�������а���顣
+icon_name_multi,Multi-Target,��Ŀ��
+icon_desc_multi,Attacks extra Bad-Blocks.,���������Ŀ�ꡣ
+icon_name_stun,Stun,ѣ��
+icon_desc_stun,Stops Bad-Blocks in their tracks.,ʹа����ͣ��һ��ʱ�䡣
+icon_name_slow,Slow,����
+icon_desc_slow,Slows down Bad-Blocks speed.,����а������ƶ��ٶȡ�
+icon_name_aoe,AoE,��Χ�˺�
+icon_desc_aoe,Effects everything in its radius.,�˺�Ӱ�췶Χ�ڵ�����Ŀ�ꡣ
+icon_name_stealth,Stealth,����
+icon_desc_stealth,Detects Sneaky-Blocks.,�ɹ������ӿ�顣
+icon_name_support,Support,֧Ԯ
+icon_desc_support,Generates coin.,���ɽ�ҡ�
+icon_name_pierce,Pierce,��͸
+icon_desc_pierce,Shoots straight through multiple Bad-Blocks.,�����ܹ��������а���顣
+icon_name_return,Return,�۷�����
+icon_desc_return,Wayno's boomerang returns��hitting everything in its path.,�����Ļ������۷�ʱͬ��������˺���
+icon_name_split,Split Shot,˫�����
+icon_desc_split,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+icon_name_biggerexplosions,Bigger Blasts!,ŭ�𱬷���
+icon_desc_biggerexplosions,Increased splash range.,��߽��䷶Χ��
+icon_name_energyboost,Energy Boost,��������
+icon_desc_energyboost,Increased attack speed.,���ӹ����ٶȡ�
+icon_name_goldmine,Gold Mine,�������
+icon_desc_goldmine,Increased gold reward.,��߽�ҽ�����
+icon_name_luckyduck,Lucky Duck,����Ѽ��
+icon_desc_luckyduck,Small chance of laying two eggs in a row.,С����������ֻ�𵰡�
+icon_name_pennypincher,Penny Pincher,һë����
+icon_desc_pennypincher,Refund sale increased.,���۷�������õĽ���������ӡ�
+icon_name_shatter,Shatter,�Ʊ���
+icon_desc_shatter,Ability to hit frozen targets.,��Ч�Կ��������Ŀ�ꡣ
+icon_name_swole,Swole,��������
+icon_desc_swole,Increased attack damage.,�����˺���
+icon_name_twobirds,Split Shot,˫�����
+icon_desc_twobirds,Hits an extra target.,����һ�����⹥��Ŀ�ꡣ
+icon_name_stickier,Stickier,ճ������
+icon_desc_stickier,Increased slow time.,��߼���ʱ����
+icon_name_deepfreeze,Deep Freeze,���
+icon_desc_deepfreeze,Increased freeze time.,��߱���ʱ����
+icon_name_slowburn,Slow Burn,����С��
+icon_desc_slowburn,Increased burn time.,���ȼ��ʱ����
+icon_name_stunner,Stunner,ͷ鳻���
+icon_desc_stunner,Increased stun time.,���ѣ��ʱ����
+icon_name_bargain,Bargain,�ּۻ���
+icon_desc_bargain,Reduce Purchase and Upgrade cost,���͹���������ɱ���
+,,
+hint_header_basic,Hint!,��ʾ��
+hint_header_beware,Beware!,С�ģ�
+gameplay_header_blackbit,Big-Blocks,��ɫ���
+gameplay_hint_0_blackbit,Tougher than Basic-Blocks,�ɶֵ�������
+gameplay_hint_1_blackbit,{Black-Blocks|black} turn into {Green-Blocks|green} when destroyed.,{��ɫ���|black}������ʱ���{��ɫ���|green}��
+gameplay_header_whitebit,White-Block,��ɫ���
+gameplay_hint_0_whitebit,Tons of health! {White-Blocks|white} turn into {Black-Blocks|black} when destroyed.,�ɶֵ�������{��ɫ���|white}������ʱ���{��ɫ���|black}��
+gameplay_hint_1_whitebit,{White-Blocks|white} turn into {Black-Blocks|black} when destroyed.,�ɶֵ�������{��ɫ���|white}������ʱ���{��ɫ���|black}��
+gameplay_header_helicopterbit,Heli-Block,ֱ�������
+gameplay_hint_0_helicopterbit,Can only be hit by ranged-Bits.,ֻ�ܱ�Զ�̹������С�
+gameplay_hint_1_helicopterbit,Immune to ground status effects.,���ߵ���״̬Ӱ�졣
+gameplay_header_tankbit,Tank-Block,̹�˿��
+gameplay_hint_0_tankbit,Can only be hit by Melee-Bits.,ֻ�ܱ���ս�������С�
+gameplay_hint_1_tankbit,Blocks pop out when the tank is destroyed!,̹�˱��ݻٺ�һ�����������������
+gameplay_header_sneakybit,Sneaky-Block,���ӿ��
+gameplay_hint_0_sneakybit,Can only be hit by Bits with STEALTH!,ֻ�ܱ����С����ơ������ķ�����������
+gameplay_hint_1_sneakybit,Build Ninja,������ʿ�����ߣ������������Կ����ǣ�
+gameplay_header_slimebit,Slime-Block,ճҺ���
+gameplay_hint_0_slimebit,Immune to ALL status effects.,���������ƶ�����״̬��
+gameplay_hint_1_slimebit,Deal damage quickly to destroy them.,��Ҫ���еĵ�����������ٴݻ�����
+hint_header_wave_46,King-Block,�������
+hint_ca_cavern_wave_46_0,Immune to SLOW,���߼��١�
+hint_ca_cavern_wave_46_1,Use BURN to help whittle down his health!,������״̬������������ֵ��
+gameplay_header_bigblubit,BigBlu-Block,�������
+gameplay_hint_0_bigblubit,Tons of health and moves very quickly! {BigBlu-Blocks|blue} turn into {White-Blocks|white} when destroyed.,�ɶֵ������������ǳ�Ѹ�٣� {�������|blue}������ʱ��Ϊ{��ɫ���|white}��
+gameplay_hint_1_bigblubit,,
+gameplay_header_waynobit,Wayno-Block,�������
+gameplay_hint_0_waynobit,Tons of health! Use everything you've got! ,�޷�����������ֵ��������þ�ȫ���������
+gameplay_header_goobit,Goo-Block,ճ�����
+gameplay_hint_0_goobit,Immune to SLOW. Use STUN or FREEZE to slow her down! ,���߼��١�ʹ��ѣ�λ����ͣ�����ĽŲ���
+gameplay_header_icebit,Ice-Block,��ɽ���
+gameplay_hint_0_icebit,Immune to FREEZE. Use BURN to take it out quickly!,���߱�����ʹ�����տ��Կ��ٻ�������
+gameplay_header_ogrebit,Ogre-Block,��ħ���
+gameplay_hint_0_ogrebit,Immune to STUN. Use FREEZE or BURN Towers!,����ѣ�Ρ�ʹ�ñ��������նԿ�����
+gameplay_header_pultbit,Pult-Block,Ͷ����
+gameplay_hint_0_pultbit,Immune to MELEE Towers. Get your range Towers ready!,���߽�ս������׼��������Զ�̷�������
+gameplay_header_samuraibit,Samurai-Block,��ʿ���
+gameplay_hint_0_samuraibit,Only STEALTH towers can deal damage! Don't let it sneak through. Keep an eye out!,���п��������ķ�������������˺�����Ҫ����ͨ�������С�ģ�
+gameplay_header_dragonibit,Dragon-Block,�������
+gameplay_hint_0_dragonibit,Immune to BURN and FREEZE. Try and SLOW it down!,�������պͱ��������ż�������
+gameplay_header_beserkerbit,Berserker-Block,�񱩿��
+gameplay_hint_0_beserkerbit,Tons of health! Moves faster after taking damage!,һ�ֵĽ��������˺��ƶ����죡 
+gameplay_hint_1_beserkerbit,{Berserker-Blocks|red} turn into {BigBlu-Blocks|blue} when destroyed.,{Beserker-Blocks |red}������ʱ���{BigBlu-Blocks |blue}
+redbit_name_codex,Red-Block,��ɫ���
+redbit_desc_0_codex,Acts tough,���ֵú�ǿӲ�����������Ҫ��Ϊһ����ɫ��顣
+redbit_desc_1_codex,,
+bluebit_name_codex,Blue-Block,��ɫ���
+bluebit_desc_0_codex,Constantly gets left behind on trips to the Swimming Pool.,ȥӾ������ʱ����û�����ϡ�
+bluebit_desc_1_codex,,
+greenbit_name_codex,Green-Block,��ɫ���
+greenbit_desc_0_codex,Gave up a career as a traffic light to pursue total Block-World Domination.,��������Ϊ��ͨ�źŵƵĹ�����ת��׷��ͳ������������硣
+greenbit_desc_1_codex,,
+yellowbit_name_codex,Yellow-Block,��ɫ���
+yellowbit_desc_0_codex,Couldn't believe it when a Block-Band wrote a song about them!,�������ţ�����ֶӾ�ȻΪ����д��һ����ר����
+yellowbit_desc_1_codex,,
+purplebit_name_codex,Purple-Block,��ɫ���
+purplebit_desc_0_codex,Being the oldest of the Blocks,��Ϊ������Ŀ�飬�����������ܵ���õĴ�����
+purplebit_desc_1_codex,,
+blackbit_name_codex,Black-Block,��ɫ���
+blackbit_desc_codex,Still uses the night-light they got for their 2nd BlockBirthday.,��Ȼ�������ڵڶ��ο���������õ���ҹ����������Լ���
+whitebit_name_codex,White-Block,��ɫ���
+whitebit_desc_codex,She's absolutely terrified of being near canned beetroot.,�ǳ�������˸���ͷ��
+tankbit_name_codex,Tank-Block,̹�˿��
+tankbit_desc_codex,Loves their job,�����Ȱ��Լ��Ĺ�������ÿ���ڳ���Ѱ��ͣ��λ���ǳ����ѡ�
+helicopterbit_name_codex,Heli-Block,ֱ�������
+helicopterbit_desc_codex,Offers cheap rides around Block-City on the weekends.,����ĩΪ��������ṩ���۵Ŀ����н��ˡ�
+sneakybit_name_codex,Sneaky-Block,���ӿ��
+sneakybit_desc_codex,Never seems to be able to think outside the box.,����û�ܴ���˼����
+slimebit_name_codex,Slime-Block,ճҺ���
+slimebit_desc_codex,Finds it difficult to hold onto a job,���ѽ��Լ�������ͬһ����������κε�ǽ���ϡ�
+bigblubit_name_codex,BigBlu-Block,�������
+codex_bigblubit_desc,Loves - Blocksketball. `Dislikes - Flying Economy.,��ϲ��������-����(��)�������������-���ȶ��ľ���ЧӦ
+beserkerbit_name_codex,Berserker-Block,�񱩿��
+beserkerbit_desc_codex,Had lunch with the Queen once....didn't go so well.,�ͻʺ�Թ�һ����͡����������ô��
+kingbit_name_codex,KingBlock,�������
+codex_kingbit_desc,Voted as 'Most likely to rule Block-World' in High school.,�ڸ��б���Ϊ�����п���ͳ�ο������Ŀ�顱��
+dragonbit_name_codex,DragonBlock,�������
+dragonbit_desc_0_codex,A massive dragon who can crush Blocks with ease...basically a showoff.,һ�������������׵�����������顭ֻ��Ϊ����ҫ��
+goobit_name_codex,Goo-Block ,ճ�����
+goobit_desc_0_codex,People always try and slow her down,��������������������������û��ʲô�ܹ�Ӱ�쵽����
+icebit_name_codex,Ice-Block,��ɽ���
+icebit_desc_0_codex,Has to travel every 3 months to remain relevent.,ÿ�����±�������һ�β���ά����ġ�
+ogrebit_name_codex,Ogre-Block,��ħ���
+ogrebit_desc_0_codex,Don't judge him��he's a creature of many layers.,��Ҫ������ж����������滹�кܶ���顣
+pultbit_name_codex,Pult-Block,Ͷ����
+pultbit_desc_0_codex,Was kicked out of the National Shot Putt team for losing all of the vital equipment.,��Ϊ������װ��ȫ���ӷɱ����Ҹ߶���������������
+samuraibit_name_codex,Samurai-Block ,��ʿ���
+sumuraibit_desc_0_codex,Always brags about having the high score for Bouncy Bits to their friends!,���Ǵ������ڡ��������ء����õĸ߷֣�
+waynobit_name_codex,Wayno-Block ,�������
+waynobit_desc_0_codex,That's not a Block...THIS is a Block.,�ⲻ��һ�����...����һ�����顣
+,,
+ftue_header_0,Welcome!,��ӭ��
+ftue_desc_0_0,Tap on a Tower to show its info.,����������Ի������Ϣ��
+ftue_desc_0_1,Drag and drop to place it down.,�϶����ɿ���ָ�Է��÷�������
+ftue_desc_0_2,,
+ftue_desc_0_3,,
+ftue_header_1,The Basics,������ѧ
+ftue_desc_1_0,Complete waves for rewards!,��ɲ����Ի�ý�����
+ftue_desc_1_1,Keep an eye on your health.,����ע���������ֵ��
+ftue_desc_1_2,Hit play to begin the siege!,�����ʼ��׼��������
+ftue_desc_1_3,,
+ftue_header_2,Red-Block,��ɫ���
+ftue_desc_2_0,{Red-Blocks|red} turn into {Blue-Blocks|blue} when destroyed.,������ʱ��{��ɫ���|red}����{��ɫ���|blue}��
+ftue_desc_2_1,,
+ftue_desc_2_2,,
+ftue_desc_2_3,,
+,,
+,,
+,,
+,,
+,,
+ftue_header_4,Basic-Blocks,��ɫ���
+ftue_desc_4_0,Takes 1 hit to destroy each Block!,������ʱ��{��ɫ���|yellow}����{��ɫ���|red}��
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+ftue_header_6,Yellow-Block,��ɫ���
+ftue_desc_6_0,{Yellow-Blocks|yellow} turn into {Red-Blocks|red} when destroyed.,������ʱ��{��ɫ���|yellow}����{��ɫ���|red}��
+ftue_desc_6_1,,
+ftue_desc_6_2,,
+ftue_desc_6_3,,
+ftue_header_7,Upgrade,����
+ftue_desc_7_0,Select your Tower,ѡ����ķ�����
+ftue_desc_7_1,Tap the upgrade button!,���������ť��
+ftue_desc_7_2,,
+ftue_desc_7_3,Upgrade Towers to make them stronger!,����������ʹ���ø�ǿ��
+ftue_header_8,Purple-Block,��ɫ���
+ftue_desc_8_0,{Purple-Blocks|purple} turn into {Yellow-Blocks|yellow} when destroyed.,������ʱ��{��ɫ���|purple}����{��ɫ���|yellow}��
+ftue_desc_8_1,,
+ftue_desc_8_2,,
+ftue_desc_8_3,,
+ftue_header_9,Green-Block,��ɫ���
+ftue_desc_9_0,{Green-Blocks|green} turn into {Purple-Blocks|purple} when destroyed.,������ʱ��{��ɫ���|green}����{��ɫ���|purple}��
+ftue_desc_9_1,,
+ftue_desc_9_2,,
+ftue_desc_9_3,,
+ftue_header_10,Hordes,���Ⱥ
+ftue_desc_10_0,The Bad-Blocks will come in larger groups.,а�����ǽ����Ⱥ��ӵ������ȥ��
+ftue_desc_10_1,This icon warns you of a horde! ,���ͼ�������һ�����Ⱥ�Ľӽ���
+ftue_desc_10_2,,
+ftue_desc_10_3,,
+ftue_header_11,Abilities: Seagull Raid,��������ŸϮ��
+ftue_desc_11_0,Use abilities for an edge in battle.,ʹ�����������ı�ս��
+ftue_desc_11_1,Seagulls slow down Bad-Blocks.,��Ÿ�ܹ�����а����
+ftue_desc_11_2,Abilities cost Keys!,������Ҫ���Ľ�Կ�ף�
+ftue_desc_11_3,,
+ftue_header_12,Abilities: Meteorite,���������Ǳ�ը
+ftue_desc_12_0,The meteorite is the strongest ability! ,�ٻ����ǣ�����������ǿ��������
+ftue_desc_12_1,It destroys everything!,�����ƻ�һ�У�
+ftue_desc_12_2,Remember��abilities cost Keys.,�����ˣ�������Ҫ���Ľ�Կ�ס�
+ftue_desc_12_3,,
+ftue_header_13,Trinkets,��Ʒ
+ftue_desc_13_0,Collect Trinkets to unlock Towers.,�ռ���Ʒ�Խ����·�������
+ftue_desc_13_1,,
+ftue_desc_13_2,,
+ftue_desc_13_3,,
+,,
+ftue_pug_0,Welcome to Defend The Bits! *Woof!*,��ӭ�������������� *���*
+ftue_pug_1,Bad-Blocks are coming! Place down Archer!,а�������ˣ��ٻ������֣�
+ftue_pug_2,Some Bad-Blocks can only be destroyed by Melee Towers. Place down Viking!,��Ща����ֻ�ܱ���ս�����ݻ٣������ά��չʾ���Կ����ǣ�
+ftue_pug_3,Soldiers are great for large groups of Bad-Blocks!,��������ڳ�Ⱥ��ӵ�а����ǳ���Ч��
+ftue_pug_4,Press a Tower and upgrade it!,���һ������������������
+ftue_pug_5,You've completed your first level! ,���Ѿ�����˵�һ�أ�
+ftue_pug_6,Complete achievements to win Keys!,��ɳɾ��Ի�ȡ��Կ�׽�����
+ftue_pug_7,Here's your reward! Fancy!,������Ľ���������
+ftue_pug_8,*Woof!* You've earned Stars!,*���*������һЩ���ǣ�
+ftue_pug_9,Collect Stars to unlock new levels!,�ռ������������µĹؿ���
+ftue_pug_10,There's also enough Keys in the bank to upgrade a Tower!,�����ϴ����㹻�Ľ�Կ������һ����������
+ftue_pug_11,Check out the upgrades! ,�鿴������
+ftue_pug_12,They can make your towers stronger,���ǿ���ʹ�������ǿ�����죬���ã���˧����
+ftue_pug_13,Keys permanently upgrade your Towers.,��Կ���ܹ�Ϊ��ķ������ṩ����������
+ftue_pug_14,*Woof* *Woof!*Hurray! You've unlocked new Towers! ,���Ѿ��������µķ�������
+ftue_pug_15,These Towers will now be available on all levels!  *Woof*,��Щ���������ڿ�����ȫ���ؿ���ʹ�ã� *��*
+ftue_pug_16,This Hint icon above me gives you info on new Bad-Blocks! ,һ����ʾͼ�꣡��������µ�а������Ϣ��
+ftue_pug_17,Go ahead,������
+ftue_pug_18,Great. Now press play to begin defending!  *Woof*,�ܺã����ڵ����ʼ��׼��������*��*
+ftue_pug_19,There's plenty of new Towers to unlock. Let's get collecting!,���µķ��������Խ����ˣ����ǿ�ʼ�ռ����ǰɣ�
+ftue_pug_20,You can tap the play button again to fast-forward each wave! *Woof* ,�������ٴε�����½ǵ��ٶȰ�ťʹ��Ϸ���٣� *��*
+ftue_pug_birds_0,Having trouble? Use abilities for an edge in battle.,�����鷳����ս����ʹ����Ļһ���������
+ftue_pug_birds_1,Seagulls slow down Bad-Blocks,��Ÿ�ܹ�����а����
+ftue_pug_birds_2,Abilities cost Keys!,������Ҫ���Ľ�Կ�ף�
+ftue_pug_meteor_0,The Meteorite is the strongest ability!,��ʯ����ǿ��������
+ftue_pug_meteor_1,It destroys EVERYTHING!,�������ƻ�һ�У�
+ftue_pug_meteor_2,Remember��abilities cost Keys!,��ס��������Ҫ���Ľ�Կ�ף�
+,,
+ach_0_title_complete,Complete,���
+ach_1_title_hunt,Hunt,����
+ach_2_title_upgrade,Upgrade,����
+ach_3_title_collect,Collect,�ռ�
+,,
+ach_0_desc_3_GF,Earn 3 Stars on Grassy Falls,����ݷ��ٻ����������
+ach_1_desc_bluebits,Defeat {number0} Blue-Blocks,����{number0}����ɫ���
+ach_2_desc_redbits,Defeat {number0} Red-Blocks,����{number0}����ɫ���
+ach_3_desc_3_HC,Earn 3 Stars on Hollow Chambers,�ڿյ����һ����������
+ach_4_desc_coins,Pick up {number0} coins,����{number0}�����
+ach_5_desc_upgradearcher,Upgrade Archer 3 times,����������3��
+ach_6_desc_trinkets,Collect {number0} Trinkets,�ռ� {number0} ����Ʒ
+ach_7_desc_stars,Collect {number0} Stars,�ռ�{number0}������
+ach_8_desc_eggs,Collect {number0} Eggs,�ռ�{number0}����
+ach_9_desc_gb_MR,Defeat {number0} Green-Blocks in the Murky Rainforest,���ȴ���������{number0}����ɫ���
+ach_10_desc_yellowbits,Defeat {number0} Yellow-Blocks,����{number0}����ɫ���
+ach_11_desc_purplebits,Defeat {number0} Purple-Blocks,����{number0}����ɫ���
+ach_12_desc_greenbits,Defeat {number0} Green-Blocks,����{number0}����ɫ���
+ach_13_desc_blackbits,Defeat {number0} Black-Blocks,����{number0}����ɫ���
+ach_14_desc_whitebits,Defeat {number0} White-Blocks,����{number0}����ɫ���
+ach_15_desc_helibits,Defeat {number0} Heli-Blocks,����{number0}��ֱ�������
+ach_16_desc_tankbits,Defeat {number0} Tank-Blocks,����{number0}��̹�˿��
+ach_17_desc_sneakybits,Defeat {number0} Sneaky-Blocks,����{number0}�����ӿ��
+ach_18_desc_slimebits,Defeat {number0} Slime-Blocks,����{number0}��ճҺ���
+ach_19_desc_bigbluebits,Defeat {number0} BigBlu-Blocks,����{number0}���������
+ach_20_desc_berserkerbits,Defeat {number0} Berserker-Blocks,����{number0}���񱩿��
+ach_21_desc_3_WO,Earn 3 Stars on Woodland Overpass,���ֵؽ�������������
+ach_22_desc_3_MR,Earn 3 Stars on Murky Rainforest,���ȴ����ֻ����������
+ach_23_desc_3_TD,Earn 3 Stars on Timberlands Dusk,�ڻƻ�ĺ�ػ����������
+ach_24_desc_3_CC,Earn 3 Stars on Creaky Cavern,���Ϲ�ɽ�������������
+ach_25_desc_3_MB,Earn 3 Stars on Misty Boardwalk,������ƽԭ�����������
+ach_26_desc_3_GR,Earn 3 Stars on Glacial Ravine,�ڱ����ѹȻ����������
+ach_27_desc_3_VC,Earn 3 Stars on Volcanic Cliffs,�ڻ�ɽ���»����������
+ach_28_desc_3_RC,Earn 3 Stars on Radiant Courtyard,�������쾮�����������
+ach_29_desc_3_MF,Earn 3 Stars on Midnight Forest,����ҹ���ֻ����������
+ach_30_desc_3_SF,Earn 3 Stars on Sakura Falls,��ӣ���ٲ������������
+ach_31_desc_3_BA,Earn 3 Stars on Blizzard Abyss,�ڱ�ѩ��Ԩ�����������
+ach_32_desc_3_MC,Earn 3 Stars on Murky Cross,�ڽ����ӵػ����������
+ach_33_desc_3_BB,Earn 3 Stars on Blazing Bedrocks,�ڳ��Ȼ��һ����������
+ach_34_desc_upgradeviking,Upgrade Viking 3 times,����ά��սʿ3��
+ach_35_desc_upgradesoldier,Upgrade Soldier 3 times,���������3��
+ach_36_desc_upgradefrumpy,Upgrade Frumpy 3 times,��������3��
+ach_37_desc_upgradeninja,Upgrade Ninja 3 times,��������3��
+ach_38_desc_upgradepiggy,Upgrade Piggy 3 times,����С��3��
+ach_39_desc_upgradepolar,Upgrade Polar 3 times,����������3��
+ach_40_desc_upgradetennis,Upgrade Tennis 3 times,����������3��
+ach_41_desc_upgradeflame,Upgrade Flame 3 times,�����һ�3��
+ach_42_desc_upgradebee,Upgrade Bee 3 times,�����۷�3��
+ach_43_desc_upgradeogre,Upgrade Ogre 3 times,������ħ3��
+ach_44_desc_upgradewayno,Upgrade Wayno 3 times,��������3��
+ach_45_desc_upgradeduck,Upgrade Duck 3 times,����Ѽ��3��
+ach_46_desc_upgradepult,Upgrade Pult 3 times,����Ͷ����3��
+ach_47_desc_upgradesamurai,Upgrade Samurai 3 times,������ʿ3��
+ach_48_desc_upgradegoo,Upgrade Goo 3 times,����𤹾3��
+ach_49_desc_upgradeice,Upgrade Ice 3 times,��������3��
+ach_50_desc_upgradetoes,Upgrade Toes 3 times,����ʳ����3��
+ach_51_desc_upgradepenelope,Upgrade Penelope 3 times,����������3��
+ach_52_desc_upgradedragon,Upgrade Dragon 3 times,��������3��
+ach_53_desc_gb_cc,Defeat {number0} Green-Blocks in Creaky Cavern,���Ϲ�ɽ������{number0}����ɫ���
+ach_54_desc_bb_mb,Defeat {number0} Black-Blocks in Misty Boardwalk,������ƽԭ����{number0}����ɫ���
+ach_55_desc_wb_gr,Defeat {number0} White-Blocks in Glacial Ravine,�ڱ����ѹ�����{number0}����ɫ���
+ach_56_desc_hb_vc,Defeat {number0} Heli-Blocks in Volcanic Cliffs,�ڻ�ɽ��������{number0}��ֱ�������
+ach_57_desc_tb_rc,Defeat {number0} Tank-Blocks in Radiant Courtyard,�������쾮����{number0}��̹�˿��
+ach_58_desc_sb_mf,Defeat {number0} Sneaky-Blocks in Midnight Forest,����ҹ��������{number0}�����ӿ��
+ach_59_desc_sb_mc,Defeat {number0} Slime-Blocks in Murky Cross,�ڽ����ӵ�����{number0}��ճҺ���
+ach_60_desc_bbb_ba,Defeat {number0} BigBlu-Blocks in Blizzard Abyss,�ڱ�ѩ��Ԩ����{number0}���������
+ach_61_desc_bb_bb,Defeat {number0} Berserker-Blocks in Blazing Bedrocks,�ڳ��Ȼ�������{number0}���񱩿��
+ach_62_desc_hunt_archer,Defeat {number0} Bad-Blocks with Archer,ʹ�ù���������{number0}��а����
+ach_63_desc_hunt_viking,Defeat {number0} Bad-Blocks with Viking,ʹ��ά��սʿ����{number0}��а����
+ach_64_desc_hunt_soldier,Defeat {number0} Bad-Blocks with Soldier,ʹ�û��������{number0}��а����
+ach_65_desc_hunt_ninja,Defeat {number0} Bad-Blocks with Ninja,ʹ����������{number0}��а����
+ach_66_desc_hunt_piggy,Defeat {number0} Bad-Blocks with Piggy,ʹ��С������{number0}��а����
+ach_67_desc_hunt_polar,Defeat {number0} Bad-Blocks with Polar,ʹ�ñ���������{number0}��а����
+ach_68_desc_hunt_tennis,Defeat {number0} Bad-Blocks with Tennis,ʹ������������{number0}��а����
+ach_69_desc_hunt_flame,Defeat {number0} Bad-Blocks with Flame,ʹ���һ�����{number0}��а����
+ach_70_desc_hunt_bee,Defeat {number0} Bad-Blocks with Bee,ʹ���۷�����{number0}��а����
+ach_71_desc_hunt_ogre,Defeat {number0} Bad-Blocks with Ogre,ʹ�þ�ħ����{number0}��а����
+ach_72_desc_hunt_wayno,Defeat {number0} Bad-Blocks with Wayno,ʹ����������{number0}��а����
+ach_73_desc_hunt_pult,Defeat {number0} Bad-Blocks with Pult,ʹ��Ͷ��������{number0}��а����
+ach_74_desc_hunt_samurai,Defeat {number0} Bad-Blocks with Samurai,ʹ����ʿ����{number0}��а����
+ach_75_desc_hunt_goo,Defeat {number0} Bad-Blocks with Goo,ʹ��ճ������{number0}��а����
+ach_76_desc_hunt_ice,Defeat {number0} Bad-Blocks with Ice,ʹ�ñ�������{number0}��а����
+ach_77_desc_hunt_toes,Defeat {number0} Bad-Blocks with Toes,ʹ��ʳ��������{number0}��а����
+ach_78_desc_hunt_penelope,Defeat {number0} Bad-Blocks with Penelope,ʹ�ö���������{number0}��а����
+ach_79_desc_hunt_dragon,Defeat {number0} Bad-Blocks with Dragon,ʹ�û�������{number0}��а����
+,,
+iap_pack_0,Bag of Keys,����Կ�״�
+iap_pack_1,Pile of Keys,����Կ�״�
+iap_pack_2,Crate of Keys,����Կ�״�
+iap_pack_3,Vault of Keys,����Կ�״�
+iap_pack_4,Bag of Keys,һ�ѽ�Կ��
+iap_pack_5,Pile of Keys,һ���Կ��
+iap_pack_7,Crate of Keys,һ�����Կ��
+iap_pack_8,Vault of Keys,һ����Կ��
+iap_success,Success!,�ɹ���
+iap_success_body,{number0} Keys Purchased,����{number0}�ѽ�Կ��
+,,
+trinket_Dragon,Dragon Scale,����
+trinket_Goo,Goo Vial,ճҺƿ
+trinket_Ice,Snowflake,ѩ��
+trinket_Ogre,Skull,��ͷ
+trinket_Pult,Cog,����
+trinket_Samurai,Charm,��׹
+trinket_Wayno,Snag,�㳦
+,,
+ui_play,Play,��ʼ��Ϸ
+ui_play_on,Play On,������Ϸ
+ui_quests,Quests,�ɾ�
+ui_leaderboard,Leaderboard,���а�
+ui_upgrades,Upgrades,����
+ui_codex,Codex,ͼ��
+ui_shop,Shop,�̵�
+ui_best_wave,Best Wave,��߲���
+ui_resources,Resources,��Դ
+ui_rewards,Rewards,����
+ui_settings,Settings,����
+ui_sfx,Game Volume,��Ϸ����
+ui_music,Music Volume,��������
+ui_mute,Mute All,ȫ������
+ui_unmute,Unmute,ȡ������
+ui_privacy,Privacy Policy,��˽����
+ui_reset_save,Reset Save Data,������Ϸ����
+ui_weak_to,Weak to,����
+ui_resistant_to,Resistant to,�ֿ�
+ui_badbits,Bad-Blocks,а����
+ui_gametips,Game Tips,��Ϸ��ʾ
+ui_claim,Claim,��ȡ
+ui_claimed,Claimed,����ȡ
+ui_sell,SELL,����
+ui_start,START,��ʼ
+ui_wave_number,WAVE {number0},��{number0}��
+ui_purchase_confirm_body,Are you sure you want to purchase {name0}?,��ȷ��Ҫ����{name0}��
+ui_purchase_confirm_header,Purchase {name0}?,����{name0}��
+ui_game_over,Game over,��Ϸ����
+ui_victory,Victory,ʤ��
+ui_retry,Retry,����
+ui_waves,Waves,����
+ui_wave_cleared,Wave Cleared,ͨ������
+ui_next_upgrade,Next Upgrade,�¸��ȼ�
+ui_lives,Lives,����ֵ
+ui_language,Language,����
+ui_tap_to_play,Tap to Play,����Կ�ʼ
+ui_defend_the_bits,Defend The Blocks,��������
+ui_kills,Kills,����
+ui_restart,Restart Level,���¿�ʼ
+ui_claim_reward,Claim Reward,��ȡ����
+ui_hint,Hint,��ʾ
+ui_continue,Continue,����
+ui_menu,Menu,�˵�
+ui_menu_return,Return to Main Menu,�������˵�
+ui_credits,Credits,������
+ui_paused,Paused,��ͣ
+ui_drop_chance,{{number0}%|white} Drop Chance,{{number0}%|white}���伸��
+,,
+enjoy_app_body,Are you enjoying,����������Ŀ�����
+ui_maybelater,LATER,�Ժ���˵
+,,
+new_update,NEW UPDATE!,����
+update_subtitle,Latest Changes in V1.1,V1.1�����±仯
+update_info,- NEW KEY CURRENCY`- GAME BALANCING`- MINOR BUG FIXES,- ȫ�µĽ�Կ�׻��ң�`- ��Ϸƽ��Ķ�`- С��ģ��©������
+ui_readmore,More Info!,������Ϣ��

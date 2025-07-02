@@ -1,0 +1,14 @@
+Test,,,
+Enemy Type,Initial Spawn Delay,Enemy Count,Enemy Spawn Interval
+boss_dragon,0,1,1
+#reward,25,,
+boss_goo,0,1,1
+#reward,25,,
+boss_ice,0,1,1
+#reward,25,,
+boss_ogre,0,1,1
+#reward,25,,
+boss_samurai,0,1,1
+#reward,25,,
+boss_wayno,0,1,1
+#reward,25,,

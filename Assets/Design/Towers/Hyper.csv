@@ -1,0 +1,6 @@
+PR,Price,Range Plot Name,Enemy Targetting Flags (& Delimited),Hit Effects (& Delimited),Damage,Attacks Per Second,Max Targets,Splash Damage,Splash Radius
+0,1000000,LASER1,Default,,0.2,100,18,10,2
+0,300,LASER2,Default,,0.3,100,18,10,2
+0,400,LASER3,Default,,0.4,100,18,10,2
+0,600,LASER4,Default,,0.5,100,18,10,2
+0,1000,LASER5,Default,,0.6,100,18,10,2
