@@ -1,0 +1,40 @@
+name: 自动打包安卓APK
+on: [push, workflow_dispatch]
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: 缓存Unity库文件
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-Android-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: Library-Android-
+
+      - name: 自动激活Unity免费个人许可证
+        uses: game-ci/unity-activate@v2
+        id: activate
+        with:
+          unityVersion: 2021.3.40f1
+          personalLicense: true
+
+      - name: 打包生成APK
+        uses: game-ci/unity-builder@v4
+        with:
+          unityVersion: 2021.3.40f1
+          targetPlatform: Android
+          androidExportType: androidPackage
+          buildName: DefendTheBits
+        env:
+          UNITY_LICENSE: ${{ steps.activate.outputs.license }}
+
+      - name: 上传APK到下载区
+        uses: actions/upload-artifact@v4
+        with:
+          name: DefendTheBits-安卓安装包
+          path: build/Android/DefendTheBits.apk
+          compression-level: 0
