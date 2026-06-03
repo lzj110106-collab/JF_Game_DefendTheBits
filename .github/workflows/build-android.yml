@@ -1,28 +1,28 @@
-name: 打包WebGL并发布
-on: [push, workflow_dispatch]
+name: Build Android APK
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
 jobs:
-  build-webgl:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: 缓存Unity库
-        uses: actions/cache@v4
+      - uses: game-ci/unity-builder@v4
         with:
-          path: Library
-          key: Library-WebGL-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          unityVersion: 2021.3.40f1
+          targetPlatform: Android
+          androidSdkPlatform: 24
+          androidBuildToolsVersion: 33.0.1
+          androidNdkVersion: 23.1.7779620
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
-      - name: 打包WebGL
-        uses: game-ci/unity-builder@v4
+      - uses: actions/upload-artifact@v4
         with:
-          unityVersion: 2021.3.41f1
-          targetPlatform: WebGL
-          buildName: DefendTheBits
-
-      - name: 发布到GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/WebGL
+          name: DefendTheBits-Android
+          path: build/Android/
